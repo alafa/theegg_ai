@@ -1,3 +1,5 @@
+**Ada Lovelace** - Considerada la primera programadora. Fue la primera en implementar un algoritmo en un ordenador. Hay un lenguaje con su nombre en su honor (Ada).
+
 **Algoritmo** - Es una serie de instrucciones en orden que se deben ejecutar para llegar a un resultado deseado.
 
 **Arduino** - Unas placas de desarrollo de hardware y software libre.
@@ -5,6 +7,8 @@
 **Arquitectura Harvard** - Se asigna una memoria específica para los datos y para las instrucciones por lo que no es tan flexible como la arquitectura Von Neumann. Eso sí, puede optimizarse mucho más para llevar a cabo una tarea específica. Por esta razón esta arquitectura es común en sistemas embebidos.
 
 **Arquitectura Von Neumann** - No hay una memoria específica asignada para los datos o para las instrucciones. Al ser memoria compartida ofrece mayor flexibilidad ya que puede adaptarse a las necesidades de la tarea. Normalmente se utiliza en ordenadores de propósito general debido a que se le da mejor hacer cualquier tarea pero no puede dar tan buenos resultados como la arquitectura Harvard para una tarea específica.
+
+**Bucles** - Esctructuras de programación que permite iterar sobre un trozo de código.
 
 **Compilador** - Un compilador es un software que genera, a partir de un código de alto nivel, unos ficheros binarios (lenguaje máquina) para que se puedan ejecutar directamente sin necesidad de intérprete.
 
