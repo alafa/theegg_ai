@@ -1,0 +1,73 @@
+**Algoritmo** - Es una serie de instrucciones en orden que se deben ejecutar para llegar a un resultado deseado.
+
+**Arduino** - Unas placas de desarrollo de hardware y software libre.
+
+**Arquitectura Harvard** - Se asigna una memoria específica para los datos y para las instrucciones por lo que no es tan flexible como la arquitectura Von Neumann. Eso sí, puede optimizarse mucho más para llevar a cabo una tarea específica. Por esta razón esta arquitectura es común en sistemas embebidos.
+
+**Arquitectura Von Neumann** - No hay una memoria específica asignada para los datos o para las instrucciones. Al ser memoria compartida ofrece mayor flexibilidad ya que puede adaptarse a las necesidades de la tarea. Normalmente se utiliza en ordenadores de propósito general debido a que se le da mejor hacer cualquier tarea pero no puede dar tan buenos resultados como la arquitectura Harvard para una tarea específica.
+
+**Compilador** - Un compilador es un software que genera, a partir de un código de alto nivel, unos ficheros binarios (lenguaje máquina) para que se puedan ejecutar directamente sin necesidad de intérprete.
+
+**CSS** - Etiquetas para definir el formato (color, tamaño.. etc) de los elementos de un HTML.
+
+**Diagrama de flujo** - Un diagrama gráfico que muestra los pasos a seguir de un algoritmo.
+
+**Editor de código** - Una aplicación para el ordenador que permite escribir texto y da facilidades para escribir código.
+
+**Filosofía DRY** - Don’t Repeat Yourself
+**Filosofía KISS** - Keep It Simple, Stupid!
+**Filosofía RAD** - Rapid Application Development
+
+**Github** - Es un repositorio de control de versiones muy conocido. Y que tiene un gato-pulpo como icono.
+
+**Hardware** - Los elementos físicos de un computador.
+
+**HTML**- Lenguaje descriptivo de los elementos de una página web.
+
+**Intérprete** - Es un software que al mismo tiempo que se ejecuta un código, lo traduce a lenguaje máquina para que el ordenador lo entienda. Los lenguajes interpretados no tienen necesidad de compilarse de antemano.
+
+**Java** - Lenguaje de programación orientado a objetos. Muy popular sobretodo para el desarrollo de aplicaciones en Android.
+
+**Javascript** - Lenguaje de programación muy utilizado en el desarrollo web. Especialmente en el frontend para dotar de interactividad a elementos del html. Aunque también se utiliza en el backend con Node.js.
+
+**Lenguaje compilado** - Lenguaje de programación que necesita ser compilado antes de poder ejecutarse en una máquina. Por ejemplo C++.
+
+**Lenguaje de alto nivel** - Son los lenguajes que son fácilmente interpretados por humanos.
+
+**Lenguaje de máquina** - O de bajo nivel es aquel que un computador puede entender directamente. Este lenguaje actúa directamente sobre el hardware de la máquina.
+
+**Lenguaje de programación** - Es un lenguaje que describe instrucciones o comandos que va a tener que ejecutar el ordenador. Un lenguaje puede ser de alto nivel o de bajo nivel.
+
+**Lenguaje interpretado** - Lenguaje de programación que no necesita ser compilado para ejecutarse. Ya que un intérprete lo transforma a lenguaje máquina on the go. Por ejemplo Python.
+
+**Ley de Moore** - Ley que afirma que el número de transistores en los microprocesadores se duplica cada dos años.
+
+**Lisp** - Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la inteligencia artificial.
+
+**Notación Big-O** - También conocido como notación asintótica o anotación Landau. Es una anotación que indica el nivel de complejidad de un algoritmo. Explica en qué manera crece el tiempo de ejecución al aumentar el tamaño del input. Puede quedarse igual o ser lineal, exponencial.. etc.
+
+**Periférico** - Hardware extra que se le añade a un ordenador para facilitar la interacción con él. Es el caso del ratón, teclado, monitores, altavoces.. Etc.
+
+**PHP** - Un lenguaje que aunque cada vez menos, ha sido durante mucho tiempo el más utilizado para el desarrollo del backend.
+
+**Programación** - Crear cosas con el ordenador. 
+
+**Puertas lógicas** - Pueden ser: AND, OR, XOR, NOT, NAN,  NOR  y XNOR y cada una tiene definido un resultado para cada par de estados binarios.
+
+**Python** - Lenguaje interpretado. Muy utilizado para procesamiento de datos e IA.
+
+**R** - Lenguaje de programación estadístico. Muy utilizado en ámbito de la IA para obtener resultados de análisis.
+
+**Raspberry PI** - La placa base de un ordenador muy sencillo que se distribuye normalmente con objetivos educacionales. Viene con sistema operativo Linux.
+
+**Repositorio de control de versiones** - Es un repositorio que ayuda al desarrollo de código donde uno o más personas colaboran. Cada proyecto puede tener diferentes ramas. Generalmente una de producción, otra de testing y otra de desarrollo. Cada una tiene versiones que es como una especie de historial. Cada vez que alguien sube un cambio a una rama, se registra una versión nueva. Un ejemplo de repositorio de control de versiones es Github.
+
+**Sistema Operativo** - Es el software principal de un ordenador que se encarga de gestionar el hardware y el resto de recursos.
+
+**Software** - Instrucciones en forma de código ejecutadas en un computador.
+
+**SQL** - Lenguaje de consulta a bases de datos relacionales.
+
+**Transistor** - Es un elemento electrónico que funciona como switch. Tiene dos estados: dejar pasar la corriente/ no dejar pasar la corriente. Con ellos se pueden construir todas las puertas lógicas.
+
+**Turing** - Durante la segunda guerra mundial construyó la máquina de Turing, que descifraría los mensajes de la Alemania nazi y salvaría muchísimas vidas. El “test de Turing”, aunque hoy en día el concepto ha quedado obsoleto, es una prueba que consiste en que un robot debe engañar a un humano haciéndole creer que está hablando/interactuando con otro humano.
