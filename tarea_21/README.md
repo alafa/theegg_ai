@@ -21,4 +21,5 @@ El programa está desarrollado con Python 3.6.4
 Ejecutar comando `python app.py` en la terminal.
 
 A continuación te pedirá que escribas un número decimal. Escribe un número y dale a Enter.
+
 Nota: El separador de decimales debe ser un punto
