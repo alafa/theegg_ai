@@ -15,7 +15,7 @@ Debes elegir qué vacas comprar y llevar en su camión, de modo que pueda maximi
 leche, observando el límite de peso del camión.
 
 
-***Entrada:*** Número total de vacas en la zona de Zaragoza que están a la venta.
+***Entrada:*** Número total de vacas que están a la venta.
 
 ***Entrada:*** Peso total que el camión puede llevar.
 

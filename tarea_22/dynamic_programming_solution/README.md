@@ -61,7 +61,7 @@ Ir en la terminal al directorio donde se encuentra este README.md y ejecutar en 
  
 `python app.py` seguido de los argumentos:
 
-***Arg. 1*** Número total de vacas en la zona de Zaragoza que están a la venta.
+***Arg. 1*** Número total de vacas que están a la venta.
 
 ***Arg. 2*** Peso total que el camión puede llevar.
 
