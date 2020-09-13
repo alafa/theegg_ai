@@ -1,25 +1,28 @@
 import json
-from SolitaireClass import Solitaire
+from Solitaire import Solitaire
 
 
-class SolitaireEncryptor(Solitaire):
+class SolitaireDecryptor(Solitaire):
 
     def __init__(self, deck):
 
         # Init call to superclass
         Solitaire.__init__(self, deck)
 
-    def encrypt_msg(self, msg):
+    def decrypt_msg(self, encrypted_msg):
 
-        key = self.generate_key(len(msg))
+        # Initialise deck
+        self.deck.set_cards_as(self.deck)
 
-        numeric_msg = self.convert_letters_to_nums(msg)
+        key = self.generate_key(len(encrypted_msg))
 
-        key_msg_sum = [x + y for x, y in zip(key, numeric_msg)]
-        key_msg_sum_mod26 = [value - 26 if value > 26 else value for value in key_msg_sum]
+        numeric_msg = self.convert_letters_to_nums(encrypted_msg)
 
-        self.encrypted_msg = self.convert_nums_to_letters(key_msg_sum_mod26)
+        key_msg_difference = [x - y for x, y in zip(numeric_msg, key)]
+        key_msg_difference_mod26 = [value + 26 if value < 0 else value for value in key_msg_difference]
 
-        return ''.join(self.encrypted_msg)
+        decrypted_msg = self.convert_nums_to_letters(key_msg_difference_mod26)
+
+        return ''.join(decrypted_msg)
 
 

@@ -2,7 +2,7 @@ import random
 
 from Card import Card
 
-class Deck:
+class DeckOfCards:
 
     def __init__(self):
 

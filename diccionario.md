@@ -2,6 +2,13 @@
 
 **Algoritmo** - Es una serie de instrucciones en orden que se deben ejecutar para llegar a un resultado deseado.
 
+**Algoritmo de cifrado asimétrico** - En criptografía se habla de un algoritmo de cifrado asimétrico cuando se tienen dos claves; Una privada y otra pública.
+La clave pública se manda junto con el mensaje al emisor y no importa que alguien la interfiera. Es con la clave privada que solo tiene el receptor que junto con la clave pública se puede descifrar.
+Es más segura pero más lenta de descifrar que el cifrado simétrico.
+
+**Algoritmo de cifrado simétrico** - En criptografía se habla de un algoritmo de cifrado simétrico cuando se tiene una clave secreta común para el emisor y receptor.
+Un ejemplo claro es el de la máquina enigma. Es menos segura pero rápida de descifrar.
+
 **Arduino** - Unas placas de desarrollo de hardware y software libre.
 
 **Arquitectura Harvard** - Se asigna una memoria específica para los datos y para las instrucciones por lo que no es tan flexible como la arquitectura Von Neumann. Eso sí, puede optimizarse mucho más para llevar a cabo una tarea específica. Por esta razón esta arquitectura es común en sistemas embebidos.
@@ -21,6 +28,8 @@
 **Filosofía DRY** - Don’t Repeat Yourself
 **Filosofía KISS** - Keep It Simple, Stupid!
 **Filosofía RAD** - Rapid Application Development
+
+**Funciones en programación** - Una encapsulación de código que admite parámetros y tiene una finalidad concreta.
 
 **Github** - Es un repositorio de control de versiones muy conocido. Y que tiene un gato-pulpo como icono.
 
