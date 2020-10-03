@@ -39,6 +39,10 @@ Se asigna una memoria específica para los datos y para las instrucciones por lo
 
 No hay una memoria específica asignada para los datos o para las instrucciones. Al ser memoria compartida ofrece mayor flexibilidad ya que puede adaptarse a las necesidades de la tarea. Normalmente se utiliza en ordenadores de propósito general debido a que se le da mejor hacer cualquier tarea pero no puede dar tan buenos resultados como la arquitectura Harvard para una tarea específica.
 
+## Bases de datos
+
+Una base de datos es un conjunto de datos almacenados en el mismo lugar, con la misma tecnología y formato.
+
 ## Bucles
 
 Esctructuras de programación que permite iterar sobre un trozo de código.
@@ -57,6 +61,10 @@ Es decir, cada vez que hay corriente se genera un 1 y un 0 cada vez que no.
 
 Etiquetas para definir el formato (color, tamaño.. etc) de los elementos de un HTML.
 
+## Data preprocessing
+
+Se refiere a la acción de transformar o tratar datos de tal forma que les demos un formato determinado para un posterior análisis o aplicación.
+
 ## Diagrama de flujo
 
 Un diagrama gráfico que muestra los pasos a seguir de un algoritmo.
@@ -68,6 +76,12 @@ Un diccionario que convierte direcciones web a direcciones IP.
 ## Editor de código
 
 Una aplicación para el ordenador que permite escribir texto y da facilidades para escribir código.
+
+## ETL
+
+Extract, Transform, Load
+
+Se refiere al proceso de recoger datos, tratarlos y subirlos a una base de datos para fines analíticos.
 
 ## IP
 
