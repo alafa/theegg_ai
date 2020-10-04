@@ -43,10 +43,14 @@ No hay una memoria específica asignada para los datos o para las instrucciones.
 
 Una base de datos es un conjunto de datos almacenados en el mismo lugar, con la misma tecnología y formato.
 
-## Bucles
+## Bucles de programación
 
 Esctructuras de programación que permite iterar sobre un trozo de código.
 
+Se trata de una estructura de programación en la que un bloque de código se ejecuta una y otra vez hasta que se dé una condición dada.
+Según el lenguaje de programación hay varios tipos de estructuras de bucles, aunque todos son en esencia parecidos.
+
+Lo más comunes son: for(), while(), do... while()
 
 ## Compilador
 
@@ -67,7 +71,7 @@ Se refiere a la acción de transformar o tratar datos de tal forma que les demos
 
 ## Diagrama de flujo
 
-Un diagrama gráfico que muestra los pasos a seguir de un algoritmo.
+Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo.
 
 # DNS
 
