@@ -24,6 +24,10 @@ Es más segura pero más lenta de descifrar que el cifrado simétrico.
 En criptografía se habla de un algoritmo de cifrado simétrico cuando se tiene una clave secreta común para el emisor y receptor.
 Un ejemplo claro es el de la máquina enigma. Es menos segura pero rápida de descifrar.
 
+## API
+
+Es una interfaz por la cual puedes recoger información útil a través de peticiones para complementar otras aplicaciones.
+
 ## Arduino
 
 Unas placas de desarrollo de hardware y software libre.
@@ -144,6 +148,10 @@ Lenguaje de programación orientado a objetos. Muy popular sobretodo para el des
 
 Lenguaje de programación muy utilizado en el desarrollo web. Especialmente en el frontend para dotar de interactividad a elementos del html. Aunque también se utiliza en el backend con Node.js.
 
+## JSON
+
+Es un formato en el que se recoge información.
+
 ## Lenguaje compilado
 
 Lenguaje de programación que necesita ser compilado antes de poder ejecutarse en una máquina. Por ejemplo C++.
@@ -187,6 +195,10 @@ Un lenguaje que aunque cada vez menos, ha sido durante mucho tiempo el más util
 ## Programación
 
 Crear cosas con el ordenador. 
+
+## Protocolo de comunicación
+
+Un lenguaje de comunciación entre dispositivos para que se entiendan.
 
 ## Protocolo TCP/IP
 
@@ -247,4 +259,7 @@ Los transistores bipolares son elementos electrónicos que dejan o no pasar la c
 Durante la segunda guerra mundial construyó la máquina de Turing, que descifraría los mensajes de la Alemania nazi y salvaría muchísimas vidas. El “test de Turing”, aunque hoy en día el concepto ha quedado obsoleto, es una prueba que consiste en que un robot debe engañar a un humano haciéndole creer que está hablando/interactuando con otro humano.
 
 
+## XML
 
+Extensible Markup Language.
+Recoge unas reglas para dar formato a un documento escrito en un inicio en texto plano.
