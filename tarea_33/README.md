@@ -11,6 +11,7 @@ se atacaran mutuamente hasta que uno de ellos se quede sin vida.
 
 ## Diagrama
 
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_33/diagrama.png?raw=true)
 
 
 
@@ -18,7 +19,8 @@ se atacaran mutuamente hasta que uno de ellos se quede sin vida.
 
 El proyecto entero está desarrollado con Python 3.6.4
 
-Ejecutar comando `python main.py /---/` en la terminal para ejecutar el programa.
+Ejecutar comando `python main.py /pikachu_life_points/ /pikachu_attack_points/ /jigglipuff_life_points/ /jigglipuff_life_points/`
+en la terminal para ejecutar el programa.
 
-Por ejemplo, ejecutar `python main.py ------` para que el duelo comience.
+Por ejemplo, ejecutar `python main.py 100 30 100 25` para que el duelo comience.
 
