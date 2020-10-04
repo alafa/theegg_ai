@@ -46,6 +46,8 @@ No hay una memoria específica asignada para los datos o para las instrucciones.
 ## Bases de datos
 
 Una base de datos es un conjunto de datos almacenados en el mismo lugar, con la misma tecnología y formato.
+Pueden ser principalmente de dos tipos: Bases de datos relacionales y bases de datos no relacionales.
+Aunque también existen las mixtas.
 
 ## Bucles de programación
 
@@ -180,9 +182,13 @@ Ley que afirma que el número de transistores en los microprocesadores se duplic
 
 Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la inteligencia artificial.
 
-##Notación Big-O
+## Notación Big-O
 
 También conocido como notación asintótica o anotación Landau. Es una anotación que indica el nivel de complejidad de un algoritmo. Explica en qué manera crece el tiempo de ejecución al aumentar el tamaño del input. Puede quedarse igual o ser lineal, exponencial.. etc.
+
+## NoSQL
+
+Es el lenguaje de consulta para las bases de datos no relacionales.
 
 ## Periférico
 
