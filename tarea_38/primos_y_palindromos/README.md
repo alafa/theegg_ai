@@ -15,9 +15,9 @@ http://www.nachocabanes.com/retos/reto.php?n=008
 
 ### Algoritmo utilizado
 
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/primos_y_palindromos/diagramas/diagram1.png?raw=true)
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/primos_y_palindromos/diagramas/diagram2.png?raw=true)
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/primos_y_palindromos/diagramas/diagram3.png?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/primos_y_palindromos/diagramas/diagram1.jpg?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/primos_y_palindromos/diagramas/diagram2.jpg?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/primos_y_palindromos/diagramas/diagram3.jpg?raw=true)
 
 # Ejecución
 

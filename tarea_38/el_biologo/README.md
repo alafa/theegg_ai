@@ -16,9 +16,9 @@ http://www.nachocabanes.com/retos/reto.php?n=005
 
 ### Algoritmo utilizado
 
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram1.png?raw=true)
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram2.png?raw=true)
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram3.png?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram1.jpg?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram2.jpg?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram3.jpg?raw=true)
 
 
 
