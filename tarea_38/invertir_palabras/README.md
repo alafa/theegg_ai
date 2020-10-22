@@ -10,3 +10,7 @@ http://www.nachocabanes.com/retos/reto.php?n=002
 ![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/invertir_palabras/diagramas/diagram1.jpg?raw=true)
 
 # Ejecución
+
+El proyecto está desarrollado con Python 3.7.3
+
+`python main.py "la frase proporcionada debe ir entre comillas"`

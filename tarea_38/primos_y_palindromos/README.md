@@ -21,3 +21,6 @@ http://www.nachocabanes.com/retos/reto.php?n=008
 
 # Ejecución
 
+El proyecto está desarrollado con Python 3.7.3
+
+`python main.py 456789`
