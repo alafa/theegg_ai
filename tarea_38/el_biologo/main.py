@@ -1,6 +1,6 @@
 import sys
 
-def get_all_posibilities(s1, s2):
+def get_comparable_strings(s1, s2):
     largest_str = s1
     shortest_str = s2
 
@@ -47,8 +47,8 @@ if __name__ == "__main__":
         exit()
 
     best_match = ''
-    for posibility in get_all_posibilities(sys.argv[1], sys.argv[2]):
-        s = common_string(posibility[0], posibility[1])
+    for pair in get_comparable_strings(sys.argv[1], sys.argv[2]):
+        s = common_string(pair[0], pair[1])
         if len(s) > len(best_match):
             best_match = s
 

@@ -14,3 +14,5 @@ http://www.nachocabanes.com/retos/reto.php?n=002
 El proyecto está desarrollado con Python 3.7.3
 
 `python main.py "la frase proporcionada debe ir entre comillas"`
+
+ESTO ESTÁ MAL. HAY QUE PROPORCIONAR EL NÚMERO DE FRASES A CONVERTIR Y LUEGO PEDIRLAS UNA A UNA!
