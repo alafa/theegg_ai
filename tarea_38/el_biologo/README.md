@@ -31,10 +31,11 @@ bajo demanda. Esto quiere decir que no se carga entero en la memoria RAM si no q
 Es recomendable usar este tipo de estructuras en vez de una lista o tupla cuando puede contener mucha información y ser
 demasiado pesado para la memoria RAM de la máquina.
 
+
 Lo primero que hace esta función es identificar que string es el largo y cual el corto (y si son iguales, indistintamente).
 Una vez esto hecho, existen tres fases: "La de entrar", "la de desplazarse dentro" y "la de salir".
 
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/pair1.jpg?raw=true)
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/pair1.png?raw=true)
 
 
 ![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/el_biologo/diagramas/diagram2.jpg?raw=true)
