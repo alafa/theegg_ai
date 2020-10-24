@@ -120,6 +120,10 @@ La función `common_string(one_pair)` se encarga de analizar cada una de estas p
 
 # Ejecución
 
-El proyecto está desarrollado con Python 3.7.3
+El proyecto está desarrollado con Python 3.7.3.
 
+Ejecutar comando `python main.py /string1/ /string2/`
+en la terminal para ejecutar el programa.
+
+Por ejemplo:
 `python main.py ctcgcccgcttggcgct cggctgcggctcgctcgctcg`
