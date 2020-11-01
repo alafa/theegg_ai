@@ -5,14 +5,22 @@ Dada una serie de palabras separadas por espacios, escribir la frase formada por
 http://www.nachocabanes.com/retos/reto.php?n=002
 
 
-### Algoritmo utilizado
+### Solución planteada
 
-![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/invertir_palabras/diagramas/diagram1.jpg?raw=true)
+El número de frases se recoge en el primer argumento. Se comprueba que es un número entero y se itera tantas veces como
+el número que se haya indicado.
+Para cada iteración, se pide al usuario una frase a introducir. Y por cada frase introducida, se guarda la frase
+con el orden de palabras al revés en un registro.
+
+Cuando no quedan más frases, se imprimen todas las frases inversas que se habían guardado en el registro.
+
+![diagrama de flujo](https://github.com/alafa/theegg_ai/blob/master/tarea_38/invertir_palabras/diagramas/diagram.jpg?raw=true)
 
 # Ejecución
 
 El proyecto está desarrollado con Python 3.7.3
 
-`python main.py "la frase proporcionada debe ir entre comillas"`
+`python main.py /numero de frases a invertir/`
 
-ESTO ESTÁ MAL. HAY QUE PROPORCIONAR EL NÚMERO DE FRASES A CONVERTIR Y LUEGO PEDIRLAS UNA A UNA!
+Por ejemplo: `python main.py 3` ejecutará el programa para invertir 3 frases.
+

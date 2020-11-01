@@ -11,7 +11,7 @@ El algebra se Boole recoge unas reglas que aplican a las operaciones lógicas o 
 
 ## Algoritmo
 
-Es una serie de instrucciones en orden que se deben ejecutar para llegar a un resultado deseado.
+Es una secuencia de pasos, operaciones o instrucciones en un orden determinado que se tienen que dar para llegar a un resultado deseado.
 
 ## Algoritmo de cifrado asimétrico
 
@@ -77,7 +77,8 @@ Se refiere a la acción de transformar o tratar datos de tal forma que les demos
 
 ## Diagrama de flujo
 
-Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo.
+Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo o una función
+para que de forma visual se pueda entender muy bien cual es la lógica que sigue.
 
 # DNS
 
@@ -126,6 +127,8 @@ FTP es un protocolo de comunicación entre dos ordenadores muy comunmente utiliz
 ## Funciones en programación
 
 Una encapsulación de código que admite parámetros y tiene una finalidad concreta.
+Son muy útiles en programación ya que permiten rehusar código varias veces en diferentes sitios para que quede
+más legible y no se tengan que repetir lineas de código quedando así código spaguetti.
 
 ## Github
 
