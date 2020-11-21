@@ -39,7 +39,7 @@ class Solitaire:
         key = []
         while len(key) < length_of_key:
 
-            num_of_key = self.get_number_of_key()
+            num_of_key = self.__get_number_of_key()
             if num_of_key is not None:
 
                 if num_of_key > 26:
@@ -49,7 +49,7 @@ class Solitaire:
 
         return key
 
-    def __convert_letters_to_nums(self, letters):
+    def convert_letters_to_nums(self, letters):
 
         nums = []
         for letter in letters:
@@ -57,7 +57,7 @@ class Solitaire:
 
         return nums
 
-    def __convert_nums_to_letters(self, nums):
+    def convert_nums_to_letters(self, nums):
 
         letters = []
         for num in nums:
