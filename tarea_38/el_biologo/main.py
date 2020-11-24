@@ -46,10 +46,14 @@ if __name__ == "__main__":
         print('ERROR: No se encuentran suficientes argumentos.')
         exit()
 
-    best_match = ''
+    max_length = 0
+    common_strings = []
     for pair in get_comparable_strings(sys.argv[1], sys.argv[2]):
         s = common_string(pair[0], pair[1])
-        if len(s) > len(best_match):
-            best_match = s
+        common_strings.append(s)
+        if len(s) > max_length:
+            max_length = len(s)
 
-    print(best_match)
+    for res in common_strings:
+        if len(res) == max_length:
+            print(res)
