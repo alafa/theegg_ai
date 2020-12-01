@@ -80,6 +80,17 @@ Se refiere a la acción de transformar o tratar datos de tal forma que les demos
 Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo o una función
 para que de forma visual se pueda entender muy bien cual es la lógica que sigue.
 
+## Dirección IP
+
+Una dirección IP es el identificador que tiene una máquina dentro de una red.
+
+Por cada conexión que se establece, hay dos IPs: la interna y la externa. La interna es para identificar al dispositivo
+dentro de una red (Ej: WIFI de una vivienda) y la externa es con la que se presentan todos estos dispositivos de la misma
+red al mundo externo. Esta IP externa tiene información sobre el territorio geográfico del que proviene.
+
+Es por esto último que si quieres acceder a contenido que no está disponible en tu país, deberás conectarte a través de
+un proxy.
+
 # DNS
 
 Un diccionario que convierte direcciones web a direcciones IP.
@@ -94,21 +105,11 @@ Extract, Transform, Load
 
 Se refiere al proceso de recoger datos, tratarlos y subirlos a una base de datos para fines analíticos.
 
-## IP
 
-Una dirección IP es el identificador que tiene una máquina a la hora de acceder a la red.
-
-Por cada conexión que se establece, hay dos IPs: la interna y la externa. La interna es para identificar al dispositivo
-dentro de una red (Ej: WIFI de una vivienda) y la externa es con la que se presentan todos estos dispositivos de la misma
-red al mundo externo. Esta IP externa tiene información sobre el territorio geográfico del que proviene.
-
-Es por esto último que si quieres acceder a contenido que no está disponible en tu país, deberás conectarte a través de
-un proxy.
 
 ## Filosofía DRY
 
 Don’t Repeat Yourself
-
 
 ## Filosofía KISS
 
@@ -141,9 +142,23 @@ Los elementos físicos de un computador.
 ## HTML
 Lenguaje descriptivo de los elementos de una página web.
 
+## Internet
+
+Se trata de la red WAN (Wide Area Network) más grande e importante que existe.
+
 ## Intérprete
 
 Es un software que al mismo tiempo que se ejecuta un código, lo traduce a lenguaje máquina para que el ordenador lo entienda. Los lenguajes interpretados no tienen necesidad de compilarse de antemano.
+
+## IP privada
+
+La dirección IP de un dispositivo conectado a una red local. Solo es conocida dentro de esta red, de cara al exterior
+utilizaría la IP pública dada por el router.
+
+## IP pública
+
+La dirección IP de una red local dentro de una red más grande. Es la forma de localizar al router de la red local
+en la cual se encuentra el dispositivo al que se quiere mandar un paquete de información.
 
 ## Java
 
@@ -184,6 +199,17 @@ Ley que afirma que el número de transistores en los microprocesadores se duplic
 ## Lisp
 
 Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la inteligencia artificial.
+
+## Máscara de subred
+
+Es un conjunto de bits (igual de larga que una dirección IP) que establece qué rango de direcciones IP pertenecen a 
+una determinada red local.
+
+Normalmente está formada por "255" (11111111 en binario) y por ceros (00000000 en binario) siendo los ceros los que indiquen
+la parte de la IP que es variable.
+
+Por ejemplo la máscara de subred: 255.255.255.0 aplicada sobre la IP 192.168.30.10 establece que la IP 192.168.30.30 también
+pertenece a esa red mientras que la IP 192.168.40.10 no.
 
 ## Notación Big-O
 
@@ -229,9 +255,26 @@ Lenguaje de programación estadístico. Muy utilizado en ámbito de la IA para o
 
 La placa base de un ordenador muy sencillo que se distribuye normalmente con objetivos educacionales. Viene con sistema operativo Linux.
 
+## Red LAN
+
+Local Area Network.
+Es una red local, comunmente dentro de una casa o empresa.
+
+## Red WAN
+
+Wide Area Network.
+Es un tipo de red de gran extensión. Puede cubrir hasta varios países. Por ejemplo, Internet es la red de tipo WAN
+más conocida.
+
 ## Repositorio de control de versiones
 
 Es un repositorio que ayuda al desarrollo de código donde uno o más personas colaboran. Cada proyecto puede tener diferentes ramas. Generalmente una de producción, otra de testing y otra de desarrollo. Cada una tiene versiones que es como una especie de historial. Cada vez que alguien sube un cambio a una rama, se registra una versión nueva. Un ejemplo de repositorio de control de versiones es Github.
+
+## Router
+
+El router es un cacharro que tenemos en casa que permite la comunicación de nuestros dispositivos al mundo exterior.
+Es decir, comunica nuestra red local con otras. Dentro de una red más grande también encontramos routers intermedios que
+van formando los nodos de la red.
 
 ## Servidor web
 
@@ -253,6 +296,18 @@ Instrucciones en forma de código ejecutadas en un computador.
 ## SQL
 
 Lenguaje de consulta a bases de datos relacionales.
+
+## Switch
+
+El switch permite la comunicación entre distintos dispositivos creando así una red local. A diferencia del hub, un switch
+conoce la IP privada de cada dispositivo y puede dirigir un mensaje a un dispositivo determinado, aprovechando de esta
+manera el ancho de banda y mejorando la privacidad.
+
+Un switch por si solo no tiene conictividad con el exterior, necesita de un router para ello.
+
+## TCP-IP
+
+Es el protocolo de comunicación que se utiliza en Internet.
 
 ## Transistor
 
