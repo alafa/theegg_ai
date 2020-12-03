@@ -16,3 +16,5 @@ Escuela de Inteligencia Artificial
 ***Tarea 33:*** El juego de Pikachu
 
 ***Tarea 38:*** Resolución de más algoritmos
+
+***Tarea 39:*** Simulador de redes

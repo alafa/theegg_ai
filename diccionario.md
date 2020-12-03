@@ -266,6 +266,12 @@ Wide Area Network.
 Es un tipo de red de gran extensión. Puede cubrir hasta varios países. Por ejemplo, Internet es la red de tipo WAN
 más conocida.
 
+## Redes Informáticas
+
+Las redes informáticas hacen referencia a un conjunto de elementos/dispositivos conectados entre sí con el objetivo de 
+intercambiar información. Estas redes pueden ser de diversos tamaños.
+
+
 ## Repositorio de control de versiones
 
 Es un repositorio que ayuda al desarrollo de código donde uno o más personas colaboran. Cada proyecto puede tener diferentes ramas. Generalmente una de producción, otra de testing y otra de desarrollo. Cada una tiene versiones que es como una especie de historial. Cada vez que alguien sube un cambio a una rama, se registra una versión nueva. Un ejemplo de repositorio de control de versiones es Github.
