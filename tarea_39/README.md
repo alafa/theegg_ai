@@ -61,6 +61,42 @@ hay una conexión funcionando correctamente tanto con el servidor como con el re
 
 ## Ejercicio C: Red VLAN básica
 
+Esta estructura consiste de dos switch conectados entre sí cada uno son 4 ordenadores conectados. Dos ordenadores de cada
+switch están en una red diferente pero en la misma red que otros dos ordenadores conectados al otro switch.
+
+Es como si tuvieramos una empresa con dos sedes y dos departamentos diferentes en cada sede (Sistemas y Recusos humanos) y quisieramos
+tener una VLAN para cada departamento. 
+
+El objetivo es que cada departamento esté conectado con el mismo departamento en la otra sede, pero no con los demás.
+
+![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/C.PNG?raw=true)
+
+Las IPs de los ordenadores del mismo departamento tienes que estar en el mismo rango de IPs. Se ha asignado:
+- Switch1, VLAN2, Ordenador1: 172.16.1.1
+- Switch1, VLAN2, Ordenador2: 172.16.1.2
+- Switch1, VLAN3, Ordenador1: 172.16.2.1
+- Switch1, VLAN3, Ordenador2: 172.16.2.2
+- Switch2, VLAN2, Ordenador1: 172.16.1.3
+- Switch2, VLAN2, Ordenador2: 172.16.1.4
+- Switch2, VLAN3, Ordenador1: 172.16.2.3
+- Switch2, VLAN3, Ordenador2: 172.16.2.4
+
+Por otra parte los switchs tienen que estar configurados de tal manera que se asigne a VLAN2 los puertos 01 y 02 y
+a VLAN 3 los puertos 3 y 4. Y además los puertos tienen que estar en modo "trunk" para permitir el envio de datos entre
+switches.
+
+Para comprobar que todo está configurado de la forma correcta podemos ejecutar los siguientes comandos en la terminal
+del cliente de cada switch.
+
+Configuración de VLAN: `sh vlan`
+
+![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/C_conf.PNG?raw=true)
+
+Configuración modo "trunk" de las interfaces: `sh interface trunk`
+
+![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/C_trunk.PNG?raw=true)
+
+
 ## Ejercicio D: Unir dos redes VLAN con un router
 
 ## Ejercicio E: Enrutamiento estático
