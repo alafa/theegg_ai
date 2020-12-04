@@ -58,6 +58,10 @@ Según el lenguaje de programación hay varios tipos de estructuras de bucles, a
 
 Lo más comunes son: for(), while(), do... while()
 
+## Cisco
+
+Cisco es una empresa grande e internacional dedicada a las telecomunicaciones y redes informáticas con sede en Estados Unidos.
+
 ## Compilador
 
 Un compilador es un software que genera, a partir de un código de alto nivel, unos ficheros binarios (lenguaje máquina) para que se puedan ejecutar directamente sin necesidad de intérprete.
@@ -104,7 +108,6 @@ Una aplicación para el ordenador que permite escribir texto y da facilidades pa
 Extract, Transform, Load
 
 Se refiere al proceso de recoger datos, tratarlos y subirlos a una base de datos para fines analíticos.
-
 
 
 ## Filosofía DRY
@@ -219,6 +222,10 @@ También conocido como notación asintótica o anotación Landau. Es una anotaci
 
 Es el lenguaje de consulta para las bases de datos no relacionales.
 
+## Packet-tracer
+
+Es un software de la empresa Cisco de simulador de redes informaticas. Está enfocado al aprendizaje de modo experimental.
+
 ## Periférico
 
 Hardware extra que se le añade a un ordenador para facilitar la interacción con él. Es el caso del ratón, teclado, monitores, altavoces.. Etc.
@@ -286,6 +293,11 @@ van formando los nodos de la red.
 
 Un servidor web es un conjunto de software abierto por puertos a la web. Están compuestos por un frontend (lo que se ve en el navegador destino) y un backend (las tripas, acceso a datos, donde se ejecutan disitntos algoritmos, etc)
 
+## Simulador
+
+Software que permite al usuario tener experiencias lo más acercadas a la realidad posible pero sin salir del mundo virtual.
+Se utiliza mucho para el aprendizaje o entretenimiento. Especialmente para experiencias que serían muy costosas o peligrosas
+llevarlas a cabo en la vida real.
 
 ## Sistema binario
 

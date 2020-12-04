@@ -1,16 +1,24 @@
 # Diccionario
 
-## Funciones en programación
+## Cisco
 
-Una encapsulación de código que admite parámetros y tiene una finalidad concreta.
-Son muy útiles en programación ya que permiten rehusar código varias veces en diferentes sitios para que quede
-más legible y no se tengan que repetir lineas de código quedando así código spaguetti.
+Cisco es una empresa grande e internacional dedicada a las telecomunicaciones y redes informáticas con sede en Estados Unidos.
 
-## Algoritmos
+## Internet
 
-Es una secuencia de pasos, operaciones o instrucciones en un orden determinado que se tienen que dar para llegar a un resultado deseado.
+Se trata de la red WAN (Wide Area Network) más grande e importante que existe.
 
-## Diagramas de flujo
+## Packet-tracer
 
-Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo o una función
-para que de forma visual se pueda entender muy bien cual es la lógica que sigue.
+Es un software de la empresa Cisco de simulador de redes informaticas. Está enfocado al aprendizaje de modo experimental.
+
+## Redes informaticas
+
+Las redes informáticas hacen referencia a un conjunto de elementos/dispositivos conectados entre sí con el objetivo de 
+intercambiar información. Estas redes pueden ser de diversos tamaños.
+
+## Simulador
+
+Software que permite al usuario tener experiencias lo más acercadas a la realidad posible pero sin salir del mundo virtual.
+Se utiliza mucho para el aprendizaje o entretenimiento. Especialmente para experiencias que serían muy costosas o peligrosas
+llevarlas a cabo en la vida real.
