@@ -139,6 +139,35 @@ Y por último se levantan estos puertos. Quedando de esta manera la configuraci�
 
 ![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/D_router_conf.PNG?raw=true)
 
-Con esta configuración los ordenadores de diferentes VLANs podrian comunicarse entre si.
+Con esta configuración los ordenadores de diferentes VLANs pueden comunicarse entre si.
 
 ## Ejercicio E: Enrutamiento estático
+
+Este último ejercicio consiste en conectar 3 redes locales utilizando en enrutamiento estático entre routeres.
+
+![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/E.PNG?raw=true)
+
+Tenemos tres redes locales cada una con 2 PCs conectados a un switch por Ethernet.
+Asignamos IPs a cada ordenador y la IP de gateway.
+
+- Red 1, Default gateway: 192.168.1.1
+- Red 1, Ordenador1: 192.168.1.2
+- Red 1, Ordenador2: 192.168.1.3
+
+
+- Red 2, Default gateway: 172.16.1.1
+- Red 2, Ordenador1: 172.16.1.2
+- Red 2, Ordenador2: 172.16.1.3
+
+
+- Red 3, Default gateway: 10.1.50.1
+- Red 3, Ordenador1: 10.1.50.2
+- Red 3, Ordenador2: 10.1.50.3
+
+Cada red necesita un Router para poder comunicarse con las otras redes.
+Los routers están conectados entre si por conexión serie. Esta conexión no viene instalada por defecto por lo que hay que agregarsela manualmente.
+En cada router hay que hacer una serie de configuraciones:
+- Asignar la IP de la gateway de la red correspondiente al puerto Ethernet y levantarlo.
+- Configurar la opción de "clock rate" a aquellos routers que tengan una conexión saliente a otro router.
+- Asignar IPs a los puertos serie de los routers de tal forma que dos puertos de una misma conexión tengan IPs de una misma red.
+- Enrutar las IPs de los puertos serie de los routers.
