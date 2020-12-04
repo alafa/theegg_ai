@@ -99,4 +99,46 @@ Configuración modo "trunk" de las interfaces: `sh interface trunk`
 
 ## Ejercicio D: Unir dos redes VLAN con un router
 
+En esta estructura tenemos 3 departamentos (VLAN) utilizando cada uno su propia red pero queremos comunicar estas subredes
+entre sí utilizando un Router.
+
+El resultado final queda de la siguiente manera:
+
+![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/D.PNG?raw=true)
+
+Lo primero se asignan IPs a los PCs y a sus gateways.
+
+- VLAN2, Default gateway: 172.16.1.1
+- VLAN2, Ordenador1: 172.16.1.2
+- VLAN2, Ordenador2: 172.16.1.3
+
+
+- VLAN3, Default gateway: 172.16.2.1
+- VLAN3, Ordenador1: 172.16.2.2
+- VLAN3, Ordenador2: 172.16.2.3
+
+
+- VLAN4, Default gateway: 172.16.3.1
+- VLAN4, Ordenador1: 172.16.3.2
+- VLAN4, Ordenador2: 172.16.3.3
+
+El switch tiene 24 puertos Ethernet disponibles. El último los reservamos para el router y el resto se dividen para VLAN.
+Reservamos para VLAN2 (Departamento de sistemas) los puertos del 1 al 8, para VLAN3 (Departamento de desarrollo) los 
+puertos 9-16 y para VLAN3 (Departamento de redes) los puertos 17-23. Siendo posible en cada VLAN conectar hasta 7 u 8 ordenadores.
+
+Conectamos los ordenadores  al switch pora un puerto correspondiente a su VLAN y configuramos el switch desde la terminal de comandos.
+Hay que crear las VLANs dandoles un nombre (SISTEMAS, DESARROLLO y REDES) y asignar a cada una de ellas sus puertos.
+También hay que configurar el puerto 24, que es el que va a ir al router, para que esté en modo trunk.
+
+Una vez se tiene esto se puede comprobar si hay conectividad entre dos ordenadores dentro de una misma VLAN. Entre VLANs
+fallará la conexión porque necesitamos un router.
+
+El router se configura para que dentro de un mismo puerto físico tengamos 3 puertos virtuales (uno para cada VLAN) y cada uno
+tenga una IP que coincida con la dirección gateway que tenemos configuradas en los PCs (172.16.1.1, 172.16.2.1 y 172.16.3.1).
+Y por último se levantan estos puertos. Quedando de esta manera la configuración del router:
+
+![Solucion ejercicio A](https://github.com/alafa/theegg_ai/blob/master/tarea_39/images/D_router_conf.PNG?raw=true)
+
+Con esta configuración los ordenadores de diferentes VLANs podrian comunicarse entre si.
+
 ## Ejercicio E: Enrutamiento estático
