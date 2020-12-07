@@ -5,7 +5,7 @@ calcular **el número de caracteres**, **el número palabras** y **ranking de pa
 del siguiente texto. La aplicación debe servir para cualquier otro texto:
 
 
-_En Strandhill, Irlanda, se cruzó en mi camino Chris, un señor de los que inspiran y se posicionan como
+> En Strandhill, Irlanda, se cruzó en mi camino Chris, un señor de los que inspiran y se posicionan como
 referente. Fue una pieza fundamental en un momento de pura congelación. Te cuento?
 Strandhill es una playa donde el mar ruge muy bien, siempre está lleno de surfistas en busca de buenas
 olas. Y allí estaba yo también. Después de unos meses viviendo en una ciudad sin costa, mis ganas por
