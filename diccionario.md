@@ -43,6 +43,10 @@ Se asigna una memoria específica para los datos y para las instrucciones por lo
 
 No hay una memoria específica asignada para los datos o para las instrucciones. Al ser memoria compartida ofrece mayor flexibilidad ya que puede adaptarse a las necesidades de la tarea. Normalmente se utiliza en ordenadores de propósito general debido a que se le da mejor hacer cualquier tarea pero no puede dar tan buenos resultados como la arquitectura Harvard para una tarea específica.
 
+## Ataque DDoS
+
+Es un ataque informático que consiste en mandar peticiones a lo loco al servicio web con la intención de bloquearlo o tirarlo.
+
 ## Bases de datos
 
 Una base de datos es un conjunto de datos almacenados en el mismo lugar, con la misma tecnología y formato.
@@ -70,6 +74,15 @@ Un compilador es un software que genera, a partir de un código de alto nivel, u
 
 Dispositivo que convierte una señal electrica analógica en pulsos digitales.
 Es decir, cada vez que hay corriente se genera un 1 y un 0 cada vez que no.
+
+## Cross-site scripting
+
+Cross-site scripting o XSS es un tipo de ataque informático que consiste en inyectar código Javascript en un sitio web.
+
+## Cracker
+
+Persona malintencionada con altos conocimientos informáticos que los utiliza para acceder a información privada de personas
+o empresas, suplantar identidades, interceptar movimientos financieros o cualquier otro tipo de ataque.
 
 ## CSS
 
@@ -138,12 +151,20 @@ más legible y no se tengan que repetir lineas de código quedando así código 
 
 Es un repositorio de control de versiones muy conocido. Y que tiene un gato-pulpo como icono.
 
-## Hardware
+## Hacker
 
+Persona con altos conocimientos en informática y aptas aptitudes para encontrar formas alternativas de realizar una acción.
+
+## Hardware
 Los elementos físicos de un computador.
 
 ## HTML
 Lenguaje descriptivo de los elementos de una página web.
+
+## Ingeniería social
+Se refiere a las técnicas usadas para manipular a los usuarios de dispositivos informaticos a que realicen ciertas acciones.
+Normalmente no es tanto la complejidad informática de las técnicas si no del arte sutil de persuasión que hace que el
+humando termine haciendo lo que queremos que haga sin que ni siquiera se dé cuenta.
 
 ## Internet
 
@@ -152,6 +173,11 @@ Se trata de la red WAN (Wide Area Network) más grande e importante que existe.
 ## Intérprete
 
 Es un software que al mismo tiempo que se ejecuta un código, lo traduce a lenguaje máquina para que el ordenador lo entienda. Los lenguajes interpretados no tienen necesidad de compilarse de antemano.
+
+## Inyección SQL
+
+Se trata de un ataque informático que consiste en introducir código en formularios web con el fin de alterar o obtener
+información de una base de datos.
 
 ## IP privada
 
@@ -203,6 +229,11 @@ Ley que afirma que el número de transistores en los microprocesadores se duplic
 
 Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la inteligencia artificial.
 
+## Man in the middle
+
+Man in the middle o MITM es un ataque informático que consiste en interceptar datos que transitan de un ordenador a otro
+para poder leerlos y/o modificarlos suplantando la identidad del emisor.
+
 ## Máscara de subred
 
 Es un conjunto de bits (igual de larga que una dirección IP) que establece qué rango de direcciones IP pertenecen a 
@@ -226,6 +257,11 @@ Es el lenguaje de consulta para las bases de datos no relacionales.
 
 Es un software de la empresa Cisco de simulador de redes informaticas. Está enfocado al aprendizaje de modo experimental.
 
+## Pentesting
+
+"Penetration Testing"
+El pentesting es un test que consiste en una serie de ataques contra un software determinado para encontrar vulnerabilidades.
+
 ## Periférico
 
 Hardware extra que se le añade a un ordenador para facilitar la interacción con él. Es el caso del ratón, teclado, monitores, altavoces.. Etc.
@@ -233,6 +269,11 @@ Hardware extra que se le añade a un ordenador para facilitar la interacción co
 ## PHP
 
 Un lenguaje que aunque cada vez menos, ha sido durante mucho tiempo el más utilizado para el desarrollo del backend.
+
+## Phising
+
+El phising es una técnica que se usa en la informática para conseguir que el usuario haga click en donde nos interesa a base de engañarle
+con trucos de ingeniería psicológica.
 
 ## Programación
 
@@ -345,3 +386,8 @@ Durante la segunda guerra mundial construyó la máquina de Turing, que descifra
 
 Extensible Markup Language.
 Recoge unas reglas para dar formato a un documento escrito en un inicio en texto plano.
+
+##XSS
+
+Ver entrada: "Cross-site scripting"
+
