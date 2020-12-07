@@ -18,3 +18,5 @@ Escuela de Inteligencia Artificial
 ***Tarea 38:*** Resolución de más algoritmos
 
 ***Tarea 39:*** Simulador de redes
+
+***Tarea 41:*** Tu primera expresión regular
