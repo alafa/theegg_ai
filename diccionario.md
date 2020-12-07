@@ -75,6 +75,10 @@ Un compilador es un software que genera, a partir de un código de alto nivel, u
 Dispositivo que convierte una señal electrica analógica en pulsos digitales.
 Es decir, cada vez que hay corriente se genera un 1 y un 0 cada vez que no.
 
+## Crawling
+
+Da nombre a la práctica de navegar por la web de forma automatizada.
+
 ## Cross-site scripting
 
 Cross-site scripting o XSS es un tipo de ataque informático que consiste en inyectar código Javascript en un sitio web.
@@ -122,6 +126,10 @@ Extract, Transform, Load
 
 Se refiere al proceso de recoger datos, tratarlos y subirlos a una base de datos para fines analíticos.
 
+## Expresiones regulares
+
+Las expresiones regulares, o también llamadas regex, son código que responden a una seríe de reglas para identificar
+patrones específicos dentro de un texto.
 
 ## Filosofía DRY
 
@@ -275,6 +283,10 @@ Un lenguaje que aunque cada vez menos, ha sido durante mucho tiempo el más util
 El phising es una técnica que se usa en la informática para conseguir que el usuario haga click en donde nos interesa a base de engañarle
 con trucos de ingeniería psicológica.
 
+## Procesamiento del lenguaje natural
+
+O PNL. Es la parte de inteligencia artificial que trabaja todo lo relacionado con el lenguaje.
+
 ## Programación
 
 Crear cosas con el ordenador. 
@@ -329,6 +341,10 @@ Es un repositorio que ayuda al desarrollo de código donde uno o más personas c
 El router es un cacharro que tenemos en casa que permite la comunicación de nuestros dispositivos al mundo exterior.
 Es decir, comunica nuestra red local con otras. Dentro de una red más grande también encontramos routers intermedios que
 van formando los nodos de la red.
+
+## Scrapping
+
+Es un conjunto de técnicas que permiten la extracción de datos en la web.
 
 ## Servidor web
 
