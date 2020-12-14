@@ -20,3 +20,5 @@ Escuela de Inteligencia Artificial
 ***Tarea 39:*** Simulador de redes
 
 ***Tarea 41:*** Tu primera expresión regular
+
+***Tarea 43:*** Aprendamos un poco de SQL

@@ -1,18 +1,29 @@
 # Diccionario
 
-## Expresiones regulares
+## Bases de datos relacionales
 
-Las expresiones regulares, o también llamadas regex, son código que responden a una seríe de reglas para identificar
-patrones específicos dentro de un texto.
+Las bases de datos relacionales tienen como propiedad que sus datos están almacenados en formato tabla y están preparados
+para poder relacionar tablas entre sí por una FOREIGN KEY.
+Una clara ventaja de este tipo de bases de datos es que dotan de robustez (con un buen diseño) a los datos almacenados.
 
-## Procesamiento del lenguaje natural
+## MongoDB
 
-O PNL. Es la parte de inteligencia artificial que trabaja todo lo relacionado con el lenguaje.
+Es una conocido gestor de base de datos de tipo no relacional de código abierto que se lanzó en 2007.
+Almacena los datos en formato coleccioens de documentos permitiendo una mayor flexibilidad en su estructura.
 
-## Scrapping
+Para las consultas utiliza lenguaje NoSQL.
 
-Es un conjunto de técnicas que permiten la extracción de datos en la web.
+## MySQL
 
-## Crawling
+MySQL es probablemente el sistema de gestión de bases de datos relacionales de código abierto más conocido y utilizado.
 
-Da nombre a la práctica de navegar por la web de forma automatizada.
+Inicialmente fue desarrollado por Oracle Corporation en 1994.
+
+## PostgreSQL
+
+Un sistema de gestión de bases de datos relacionales de código abierto muy conocido.
+
+## SQL
+
+"Structured Query Language".
+SQL es un lenguaje de consulta y escritura de datos en bases de datos relacionales.

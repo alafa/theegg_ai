@@ -53,6 +53,12 @@ Una base de datos es un conjunto de datos almacenados en el mismo lugar, con la 
 Pueden ser principalmente de dos tipos: Bases de datos relacionales y bases de datos no relacionales.
 Aunque también existen las mixtas.
 
+## Bases de datos relacionales
+
+Las bases de datos relacionales tienen como propiedad que sus datos están almacenados en formato tabla y están preparados
+para poder relacionar tablas entre sí por una FOREIGN KEY.
+Una clara ventaja de este tipo de bases de datos es que dotan de robustez (con un buen diseño) a los datos almacenados.
+
 ## Bucles de programación
 
 Esctructuras de programación que permite iterar sobre un trozo de código.
@@ -253,6 +259,19 @@ la parte de la IP que es variable.
 Por ejemplo la máscara de subred: 255.255.255.0 aplicada sobre la IP 192.168.30.10 establece que la IP 192.168.30.30 también
 pertenece a esa red mientras que la IP 192.168.40.10 no.
 
+## MongoDB
+
+Es una conocido gestor de base de datos de tipo no relacional de código abierto que se lanzó en 2007.
+Almacena los datos en formato coleccioens de documentos permitiendo una mayor flexibilidad en su estructura.
+
+Para las consultas utiliza lenguaje NoSQL.
+
+## MySQL
+
+MySQL es probablemente el sistema de gestión de bases de datos relacionales de código abierto más conocido y utilizado.
+
+Inicialmente fue desarrollado por Oracle Corporation en 1994.
+
 ## Notación Big-O
 
 También conocido como notación asintótica o anotación Landau. Es una anotación que indica el nivel de complejidad de un algoritmo. Explica en qué manera crece el tiempo de ejecución al aumentar el tamaño del input. Puede quedarse igual o ser lineal, exponencial.. etc.
@@ -282,6 +301,10 @@ Un lenguaje que aunque cada vez menos, ha sido durante mucho tiempo el más util
 
 El phising es una técnica que se usa en la informática para conseguir que el usuario haga click en donde nos interesa a base de engañarle
 con trucos de ingeniería psicológica.
+
+## PostgreSQL
+
+Un sistema de gestión de bases de datos relacionales de código abierto muy conocido.
 
 ## Procesamiento del lenguaje natural
 
@@ -370,7 +393,8 @@ Instrucciones en forma de código ejecutadas en un computador.
 
 ## SQL
 
-Lenguaje de consulta a bases de datos relacionales.
+"Structured Query Language".
+SQL es un lenguaje de consulta y escritura de datos en bases de datos relacionales.
 
 ## Switch
 
