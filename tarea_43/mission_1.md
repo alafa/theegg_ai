@@ -17,3 +17,5 @@ se indica cual es la tabla de la que se quieren los datos.
 ![result](https://github.com/alafa/theegg_ai/blob/master/tarea_43/images/1.3.png?raw=true)
 
 Efectivamente, se devuelven todos los registros de la tabla.
+
+[Ver la misión 2](https://github.com/alafa/theegg_ai/blob/master/tarea_43/mission_2.md)

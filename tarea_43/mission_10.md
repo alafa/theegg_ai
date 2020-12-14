@@ -13,3 +13,5 @@ Simplemente añadiendo `LIMIT 10` al final de nuestra query ya tenemos lo que se
 ## Resultados en la base de datos
 
 ![result](https://github.com/alafa/theegg_ai/blob/master/tarea_43/images/10.3.PNG?raw=true)
+
+[Ver la misión 11](https://github.com/alafa/theegg_ai/blob/master/tarea_43/mission_11.md)

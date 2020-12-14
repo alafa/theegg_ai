@@ -18,3 +18,5 @@ según el valor de la columna Promotions.
 ## Resultados en la base de datos
 
 ![result](https://github.com/alafa/theegg_ai/blob/master/tarea_43/images/8.3.PNG?raw=true)
+
+[Ver la misión 9](https://github.com/alafa/theegg_ai/blob/master/tarea_43/mission_9.md)

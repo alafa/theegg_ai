@@ -13,3 +13,5 @@ Al especificar `DESC` en vez de `ASC` ya estamos indicando que queremos que el o
 ## Resultados en la base de datos
 
 ![result](https://github.com/alafa/theegg_ai/blob/master/tarea_43/images/7.3.PNG?raw=true)
+
+[Ver la misión 8](https://github.com/alafa/theegg_ai/blob/master/tarea_43/mission_8.md)

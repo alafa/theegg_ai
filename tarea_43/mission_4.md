@@ -18,3 +18,5 @@ se indica cual es la tabla de la que se quieren los datos.
 ![result](https://github.com/alafa/theegg_ai/blob/master/tarea_43/images/4.3.PNG?raw=true)
 
 Efectivamente, se obtienen las dos propiedades especificadas en la consulta de todos los registros de la tabla.
+
+[Ver la misión 5](https://github.com/alafa/theegg_ai/blob/master/tarea_43/mission_5.md)

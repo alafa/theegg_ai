@@ -14,3 +14,5 @@ Es decir, no se va a mostrar ningún registro repetido.
 ## Resultados en la base de datos
 
 ![result](https://github.com/alafa/theegg_ai/blob/master/tarea_43/images/5.3.PNG?raw=true)
+
+[Ver la misión 6](https://github.com/alafa/theegg_ai/blob/master/tarea_43/mission_6.md)
