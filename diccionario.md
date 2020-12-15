@@ -24,6 +24,17 @@ Es más segura pero más lenta de descifrar que el cifrado simétrico.
 En criptografía se habla de un algoritmo de cifrado simétrico cuando se tiene una clave secreta común para el emisor y receptor.
 Un ejemplo claro es el de la máquina enigma. Es menos segura pero rápida de descifrar.
 
+## Algoritmos de ordenación
+
+Existen diferentes algoritmos diseñados para ordenar listas. Algunos de ellos son:
+- El método de la burbuja
+- El método de inserción
+- El método de selección
+Todos ellos tienen una notación O de complejidad cuadrática (n^2).
+
+Hay otros algoritmos de ordenación que ofercen un mejor rendimiento pero que tienen más limitaciones, por ejemplo, que solo
+se puedan ordenar números enteros.
+
 ## API
 
 Es una interfaz por la cual puedes recoger información útil a través de peticiones para complementar otras aplicaciones.
@@ -272,9 +283,17 @@ MySQL es probablemente el sistema de gestión de bases de datos relacionales de 
 
 Inicialmente fue desarrollado por Oracle Corporation en 1994.
 
+## Notación asintótica
+
+Es una manera de clasificar la complejidad de un algoritmo y la eficiencia de este según el input va creciendo.
+La notación asintótica más conocida es la notación Big-O.
+
 ## Notación Big-O
 
-También conocido como notación asintótica o anotación Landau. Es una anotación que indica el nivel de complejidad de un algoritmo. Explica en qué manera crece el tiempo de ejecución al aumentar el tamaño del input. Puede quedarse igual o ser lineal, exponencial.. etc.
+También conocido como notación asintótica o anotación Landau.
+Es una anotación que indica el nivel de complejidad de un algoritmo. Explica en qué manera crece el tiempo de ejecución al aumentar el tamaño del input. Puede quedarse igual o ser lineal, exponencial.. etc.
+
+Se tiene en cuenta la componente del algoritmo que más afecta al rendimiento y se desprecian las demás.
 
 ## NoSQL
 
