@@ -22,3 +22,5 @@ Escuela de Inteligencia Artificial
 ***Tarea 41:*** Tu primera expresión regular
 
 ***Tarea 43:*** Aprendamos un poco de SQL
+
+***Tarea 44:*** Análisis del rendimiento de las aplicaciones de IA
