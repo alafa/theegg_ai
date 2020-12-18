@@ -35,6 +35,13 @@ Todos ellos tienen una notación O de complejidad cuadrática (n^2).
 Hay otros algoritmos de ordenación que ofercen un mejor rendimiento pero que tienen más limitaciones, por ejemplo, que solo
 se puedan ordenar números enteros.
 
+## Análisis exploratorio
+
+En análisis exploratorio es el analisis que se realiza a un conjunto de datos para estudiar y conocer las características
+del set de datos y para entender qué relación tienen las variables entre sí. 
+
+Se útilizan técnicas de la estadística descriptiva.
+
 ## API
 
 Es una interfaz por la cual puedes recoger información útil a través de peticiones para complementar otras aplicaciones.
@@ -113,6 +120,21 @@ Etiquetas para definir el formato (color, tamaño.. etc) de los elementos de un 
 
 Se refiere a la acción de transformar o tratar datos de tal forma que les demos un formato determinado para un posterior análisis o aplicación.
 
+## Dato estructurado
+
+Los datos estructurados se refiere a datos ya procesados, normalizamos y limpios, preparados para analizar.
+Se almacenan en bases de datos relacionales, en formato tabla.
+
+## Dato no estructurado
+
+Los datos no estrcturados son los datos crudos tal y como se han recogido. Estos pueden ser de cualquier formato y deberán
+ser tratados antes de poder ser analizados.
+
+## Dato semiestructurado
+
+Los datos semiestructurados no tienen una estructura totalmente definida pero sí se puede aplicar algún anañisis sobre ellos porque
+su formato lo permite. Normalmente hablamos de datos almacenados en formato JSON.
+
 ## Diagrama de flujo
 
 Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo o una función
@@ -136,6 +158,12 @@ Un diccionario que convierte direcciones web a direcciones IP.
 ## Editor de código
 
 Una aplicación para el ordenador que permite escribir texto y da facilidades para escribir código.
+
+## Estadística descriptiva
+
+La estadistica descriptiva es el conjunto de técnicas que extraen caracteristicas descriptivas de un conjunto de datos.
+Estás características son, entre otras: La media/promedio, la mediana y los cuartiles, la dispersión de los datos, 
+el rango intercuartílico, la correlación entre variables, la reducción de la dimensionalidad, la clusterización de los datos... etc
 
 ## ETL
 
