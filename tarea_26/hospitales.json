@@ -1,0 +1,36 @@
+[
+   {
+      "geo":"guipuzcoa",
+      "hospitales":[
+         "03 Donosti",
+         "06 Zumarraga",
+         "07 Bidasoa",
+         "08 Mendaro",
+         "09 Alto Deba",
+         "12 Eibar"
+      ]
+   },
+   {
+      "geo":"vizcaya",
+      "hospitales":[
+         "02 Cruces",
+         "04 Basurto",
+         "05 Galdakao",
+         "10 San Eloy",
+         "11 Urduliz",
+         "14 Sta Marina",
+         "15 Gorliz",
+         "BERMEO H.",
+         "ZALDIBAR H.",
+         "ZAMUDIO H."
+      ]
+   },
+   {
+      "geo":"alaba",
+      "hospitales":[
+         "01 Araba",
+         "13 Leza",
+         "ÁLAVA PSIQUIÁTRICO H."
+      ]
+   }
+]

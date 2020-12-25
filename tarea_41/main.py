@@ -22,6 +22,6 @@ if __name__ == "__main__":
         word_count[word.lower()] = len(re.findall(f"\\b{word}\\b", text, re.IGNORECASE))
 
     ranking_count_words = sorted(word_count.items(), key=lambda x: x[1], reverse=True)
-    print("\n --> Ranking de las palabras más saludas:")
+    print("\n --> Ranking de las palabras más frecuentes:")
     for w in ranking_count_words:
         print(f"{w[0]}: {w[1]}")
