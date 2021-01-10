@@ -13,6 +13,8 @@ Escuela de Inteligencia Artificial
 
 ***Tarea 24:*** Construye un simulador
 
+***Tarea 26:*** Analizar datos del Covid-19
+
 ***Tarea 33:*** El juego de Pikachu
 
 ***Tarea 38:*** Resolución de más algoritmos
@@ -20,6 +22,8 @@ Escuela de Inteligencia Artificial
 ***Tarea 39:*** Simulador de redes
 
 ***Tarea 41:*** Tu primera expresión regular
+
+***Tarea 42:*** HTML5, la revolución de los navegadores
 
 ***Tarea 43:*** Aprendamos un poco de SQL
 
