@@ -14,6 +14,12 @@ def load_csv(filename):
             if i < 2:
                 # Imprimir la descripción de los datos
                 print(f" - {row[0]}")
+                if i == 0:
+                    title = row[0]
+                    
+                if i == 1:
+                    title_note = row[0]
+                    
                 continue
 
             if i == 2:
@@ -37,23 +43,8 @@ def load_csv(filename):
 
                 df = df.append(row_dict, ignore_index=True)
                 
-    return df
+    return {"data": df, "title": title, "title_note": title_note}
     
-HOSPITALES = [
-    {
-        "geo": "guipuzcoa",
-        "hospitales": ["03 Donosti", "06 Zumarraga", "07 Bidasoa", "08 Mendaro", "09 Alto Deba", "12 Eibar"]
-    },
-    {
-        "geo": "vizcaya",
-        "hospitales": ["02 Cruces", "04 Basurto", "05 Galdakao", "10 San Eloy", "11 Urduliz", "14 Sta Marina", "15 Gorliz", "BERMEO H.", "ZALDIBAR H.", "ZAMUDIO H."]
-    },
-    {
-        "geo": "alaba",
-        "hospitales": ["01 Araba", "13 Leza", "ÁLAVA PSIQUIÁTRICO H."]
-    }
-
-]
     
 def group_by_region(df):
 
@@ -81,16 +72,19 @@ def group_by_region(df):
     return df_new
     
     
-df_01 = group_by_region(load_csv("01"))
-df_02 = group_by_region(load_csv("02"))
-df_03 = group_by_region(load_csv("03"))
-df_04 = group_by_region(load_csv("04"))
-df_05 = group_by_region(load_csv("05"))
-df_06 = group_by_region(load_csv("06"))
-df_07 = group_by_region(load_csv("07"))
-df_08 = group_by_region(load_csv("08"))
-df_09 = group_by_region(load_csv("09"))
+def load_csvs():
+    
+    csv_list = ["01", "02", "03", "04", "05", "06", "07", "08", "09"]
+    
+    data = []
+    for csv_id in csv_list:
+        d = load_csv(csv_id)
+        d["data"] = group_by_region(d["data"])
+        data.append(d)
+        
+    return data
+ 
 
-
-print("Pandas dataframes available: df_01, df_02, df_03, df_04, df_05, df_06, df_07, df_08, df_09")
+CSVS_DATA = load_csvs()
+print("Pandas dataframes available in CSVS_DATA[]['data']")
 
