@@ -1,25 +1,35 @@
 {% extends 'collection/base.html' %}
 {% block content %}
-     <div class="container">
+
+    {% for category in video_items.0.CAT_CHOICES %}
+
+        <h1>{{ category.1 }}</h1>
+
+        <div class="container">
         <div class="row">
             {% for item in video_items %}
-                <div class="col-md-4">
 
-                    <div class="card mb-2">
-                        <div class="card-body">
+                {% if category.0 == item.category %}
+                    <div class="col-md-4">
 
-                            <h5 class="card-title"> {{ item.title }} </h5>
+                        <div class="card mb-2">
+                            <div class="card-body">
 
-                            {{ item.image_preview.value }}
-                            <img class="card-img-top" src="{{ item.image_preview.url }}", alt="image of project" width="300">
+                                <h5 class="card-title"> {{ item.title }} </h5>
 
-                            <p class="card-title"> Categoría: {{ item.category }} </p>
-
+                                <a href="{{ item.url }}">
+                                    <img class="card-img-top" src="{{ item.image_preview.url }}", alt="image of project" width="300">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                {% endif %}
             {% endfor %}
         </div>
+
+
+    {% endfor %}
+
 
 
 <style>
