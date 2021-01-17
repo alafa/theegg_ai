@@ -5,12 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <div class="video">
-                            <iframe width="500" height="300"
-                            src="https://www.youtube.com/embed/{{ video_item.youtube_id }}">
-                                allow="autoplay"
-                            </iframe>
-                     </div>
+                    <div id="player"></div>
                 </div>
                 <br>
                     <div class="col-md-5 col-sm-5">
@@ -21,5 +16,107 @@
             </div>
         </div>
     </div>
+    <button class="hints" ></button>
+    <div>
+        <p class="output"></p>
+    </div>
+
+    <script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '300',
+          width: '500',
+          videoId: '{{ video_item.youtube_id }}'
+        });
+      }
+
+      function playVideo() {
+        player.playVideo();
+      }
+
+      function pauseVideo() {
+        player.pauseVideo();
+      }
+
+      function stopVideo() {
+        player.stopVideo();
+      }
+
+
+
+    // Reconocimiento de voz
+    var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+    var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
+    var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
+
+    var INSTRUCCIONES_VALIDAS = ["reproducir", "pausar", "terminar"]
+    var grammar = '#JSGF V1.0; grammar INSTRUCCIONES_VALIDAS; public <INSTRUCCIONES_VALIDAS> = ' + INSTRUCCIONES_VALIDAS.join(' | ') + ' ;'
+
+    var recognition = new SpeechRecognition();
+    var speechRecognitionList = new SpeechGrammarList();
+    speechRecognitionList.addFromString(grammar, 1);
+    recognition.grammars = speechRecognitionList;
+    recognition.continuous = false;
+    recognition.lang = 'es-ES';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    var diagnostic = document.querySelector('.output');
+    var bg = document.querySelector('html');
+    var hints = document.querySelector('.hints');
+
+    hints.innerHTML = 'Click aqui y luego di en voz alta "reproducir", "pausar" o "terminar"';
+
+    document.body.onclick = function() {
+        recognition.start();
+        console.log('Preparado para recibir una instrucción de video.');
+    }
+
+    recognition.onresult = function(event) {
+      // The SpeechRecognitionEvent results property returns a SpeechRecognitionResultList object
+      // The SpeechRecognitionResultList object contains SpeechRecognitionResult objects.
+      // It has a getter so it can be accessed like an array
+      // The first [0] returns the SpeechRecognitionResult at the last position.
+      // Each SpeechRecognitionResult object contains SpeechRecognitionAlternative objects that contain individual results.
+      // These also have getters so they can be accessed like arrays.
+      // The second [0] returns the SpeechRecognitionAlternative at position 0.
+      // We then return the transcript property of the SpeechRecognitionAlternative object
+      var instruccion_recibida = event.results[0][0].transcript;
+      diagnostic.textContent = 'Instrucción entendida: ' + instruccion_recibida;
+      console.log('Confidence: ' + event.results[0][0].confidence);
+
+      if (instruccion_recibida == INSTRUCCIONES_VALIDAS[0]){
+          playVideo()
+      }
+
+      else if (instruccion_recibida == INSTRUCCIONES_VALIDAS[1]){
+          pauseVideo()
+      }
+
+      else if (instruccion_recibida == INSTRUCCIONES_VALIDAS[2]){
+          stopVideo()
+      }
+    }
+
+    recognition.onspeechend = function() {
+        recognition.stop();
+    }
+
+    recognition.onnomatch = function(event) {
+        diagnostic.textContent = "No he entendido.";
+    }
+
+    recognition.onerror = function(event) {
+        diagnostic.textContent = 'Error occurred in recognition: ' + event.error;
+    }
+
+    </script>
 {% endblock %}
 
