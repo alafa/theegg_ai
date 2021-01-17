@@ -17,7 +17,7 @@
 
                                 <h5 class="card-title"> {{ item.title }} </h5>
 
-                                <a href="{{ item.url }}">
+                                <a href="{% url 'collection:video' item.pk %}">
                                     <img class="card-img-top" src="{{ item.image_preview.url }}", alt="image of project" width="300">
                                 </a>
                             </div>

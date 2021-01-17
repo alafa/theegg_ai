@@ -6,5 +6,6 @@ app_name = "collection"
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('about/', views.about, name='about')
+    path('about/', views.about, name='about'),
+    path('video/<int:pk>', views.video, name="video")
 ]

@@ -11,3 +11,7 @@ def home(request):
 def about(request):
     return render(request, 'collection/about.html')
 
+
+def video(request, pk):
+    item = VideoItem.objects.get(pk=pk)
+    return render(request, 'collection/video.html', {"video_item": item})
