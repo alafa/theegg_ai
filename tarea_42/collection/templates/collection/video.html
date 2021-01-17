@@ -1,7 +1,25 @@
 {% extends 'collection/base.html' %}
 {% block content %}
-    VIIIIDEO
 
+    <div class="video-feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="video">
+                            <iframe width="500" height="300"
+                            src="https://www.youtube.com/embed/{{ video_item.youtube_id }}">
+                                allow="autoplay"
+                            </iframe>
+                     </div>
+                </div>
+                <br>
+                    <div class="col-md-5 col-sm-5">
 
+                    <h2>{{ video_item.title }}</h2>
+                    <p>{{ video_item.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
 

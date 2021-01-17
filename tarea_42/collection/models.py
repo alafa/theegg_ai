@@ -19,4 +19,4 @@ class VideoItem(models.Model):
         default=0
     )
     image_preview = models.ImageField(upload_to='video_collection/uploaded', default="")
-    url = models.CharField(max_length=100)
+    youtube_id = models.CharField(max_length=100)
