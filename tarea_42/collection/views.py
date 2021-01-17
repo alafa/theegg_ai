@@ -1,10 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from collection.models import VideoItem
 
 
 # Create your views here.
 def home(request):
-    return render(request, 'collection/home.html')
+    video_items = VideoItem.objects.all()
+    return render(request, 'collection/home.html', {"video_items": video_items})
+
 
 def about(request):
     return render(request, 'collection/about.html')

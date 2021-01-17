@@ -1,6 +1,26 @@
 {% extends 'collection/base.html' %}
 {% block content %}
-    Hello world
+     <div class="container">
+        <div class="row">
+            {% for item in video_items %}
+                <div class="col-md-4">
+
+                    <div class="card mb-2">
+                        <div class="card-body">
+
+                            <h5 class="card-title"> {{ item.title }} </h5>
+
+                            {{ item.image_preview.value }}
+                            <img class="card-img-top" src="{{ item.image_preview.url }}", alt="image of project" width="300">
+
+                            <p class="card-title"> Categoría: {{ item.category }} </p>
+
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
 
 <style>
 #home_nav {
