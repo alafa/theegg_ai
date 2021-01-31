@@ -2,6 +2,13 @@
 
 Considerada la primera programadora. Fue la primera en implementar un algoritmo en un ordenador. Hay un lenguaje con su nombre en su honor (Ada).
 
+## AJAX
+
+Significa: Asynchronous JavaScript And XML
+
+Es una técnica de desarrollo web frontend que permite tener una comunicación asíncrona con el servidor
+de backend en un segundo plano.
+
 ## Algebra Booleana
 
 O algebra de Boole. Se llama así en honor al matemático Geoge Boole que esquematizó las operaciones lógicas definiendolas
@@ -61,6 +68,12 @@ Se asigna una memoria específica para los datos y para las instrucciones por lo
 
 No hay una memoria específica asignada para los datos o para las instrucciones. Al ser memoria compartida ofrece mayor flexibilidad ya que puede adaptarse a las necesidades de la tarea. Normalmente se utiliza en ordenadores de propósito general debido a que se le da mejor hacer cualquier tarea pero no puede dar tan buenos resultados como la arquitectura Harvard para una tarea específica.
 
+## Asíncrono
+
+Se trata de un método de ejecución en el que la CPU no se queda esperando sin hacer nada a que un proceso obtenga la 
+respuesta de un servicio. Si no que aprovecha ese tiempo para realizar otras peticiones o procesar respuestas
+obtenidas de llamadas anteriores.
+
 ## Ataque DDoS
 
 Es un ataque informático que consiste en mandar peticiones a lo loco al servicio web con la intención de bloquearlo o tirarlo.
@@ -90,6 +103,11 @@ Lo más comunes son: for(), while(), do... while()
 
 Cisco es una empresa grande e internacional dedicada a las telecomunicaciones y redes informáticas con sede en Estados Unidos.
 
+## Código Fuente
+
+El código fuente es el código en texto que contiene las instrucciones que debe seguir la máquina.
+
+
 ## Compilador
 
 Un compilador es un software que genera, a partir de un código de alto nivel, unos ficheros binarios (lenguaje máquina) para que se puedan ejecutar directamente sin necesidad de intérprete.
@@ -114,7 +132,10 @@ o empresas, suplantar identidades, interceptar movimientos financieros o cualqui
 
 ## CSS
 
-Etiquetas para definir el formato (color, tamaño.. etc) de los elementos de un HTML.
+Cascading Style Sheets
+
+El CSS es un lenguaje descriptivo que contiene información complementaria al HTML sobre el
+aspecto físico, formato y estilo de los elementos de una página web.
 
 ## Data preprocessing
 
@@ -212,12 +233,21 @@ Persona con altos conocimientos en informática y aptas aptitudes para encontrar
 Los elementos físicos de un computador.
 
 ## HTML
-Lenguaje descriptivo de los elementos de una página web.
+
+HyperText Markup Language
+
+El HTML es un lenguaje descriptivo que define la estructura y el contenido básico de una página web.
+
 
 ## Ingeniería social
 Se refiere a las técnicas usadas para manipular a los usuarios de dispositivos informaticos a que realicen ciertas acciones.
 Normalmente no es tanto la complejidad informática de las técnicas si no del arte sutil de persuasión que hace que el
 humando termine haciendo lo que queremos que haga sin que ni siquiera se dé cuenta.
+
+## Interfaz
+
+Se entiende por interfaz a cualquier pantalla que sirva para interactuar con el usuario final.
+Puede ser, por ejemplo, una interfaz web. Es decir, una página web.
 
 ## Internet
 
@@ -248,7 +278,8 @@ Lenguaje de programación orientado a objetos. Muy popular sobretodo para el des
 
 ## Javascript
 
-Lenguaje de programación muy utilizado en el desarrollo web. Especialmente en el frontend para dotar de interactividad a elementos del html. Aunque también se utiliza en el backend con Node.js.
+Lenguaje de programación muy utilizado en el desarrollo web. Especialmente en el frontend para dotar de interactividad a
+ elementos del html. Aunque también se utiliza en el backend con Node.js.
 
 ## JSON
 
@@ -425,6 +456,14 @@ Un servidor web es un conjunto de software abierto por puertos a la web. Están 
 Software que permite al usuario tener experiencias lo más acercadas a la realidad posible pero sin salir del mundo virtual.
 Se utiliza mucho para el aprendizaje o entretenimiento. Especialmente para experiencias que serían muy costosas o peligrosas
 llevarlas a cabo en la vida real.
+
+## Síncrono
+
+Se trata de un método de ejecución en el que la CPU se queda esperando sin hacer nada a que un proceso obtenga la 
+respuesta de un servicio. No se aprovecha ese tiempo para realizar otras peticiones o procesar respuestas
+obtenidas de llamadas anteriores.
+
+Por lo contrario, el método asincrono sí que aprovecha este tiempo muerto de espera.
 
 ## Sistema binario
 

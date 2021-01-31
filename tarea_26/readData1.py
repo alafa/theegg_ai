@@ -5,15 +5,15 @@ import pandas as pd
 from datetime import datetime
 
 # Leer fichero
-def assistential_data_load_csv(filename):
-    print(f"Cargando: {filename}.csv")
+def load_csv(filename):
+    #print(f"Cargando: {filename}.csv")
     with open(f'./data/datos-asistenciales/{filename}.csv', newline = '') as f:
         reader = csv.reader(f, delimiter =';', quoting = csv.QUOTE_NONE)
         for i, row in enumerate(reader):
 
             if i < 2:
                 # Imprimir la descripción de los datos
-                print(f" - {row[0]}")
+                #print(f" - {row[0]}")
                 if i == 0:
                     title = row[0]
                     
@@ -65,29 +65,27 @@ def group_by_region(df):
                 if hosp in df.columns:
                     df_new[geo] += df[hosp].fillna(0)
                 else:
-                    print(f"--> WARNING: No data for hospital {hosp} ({geo})")
+                    #print(f"--> WARNING: No data for hospital {hosp} ({geo})")
+                    pass
         
         df_new["total_calculado"] = df_new["guipuzcoa"] + df_new["vizcaya"] + df_new["alaba"] 
     
     return df_new
     
     
-def assistential_data_load_csvs():
+def load_csvs():
     
-    csv_list = ["01", "04"]
+    csv_list = ["01", "02", "03", "04", "05", "06", "07", "08", "09"]
     
     data = []
     for csv_id in csv_list:
-        d = assistential_data_load_csv(csv_id)
+        d = load_csv(csv_id)
         d["data"] = group_by_region(d["data"])
         data.append(d)
         
     return data
  
 
-CSVS_ASSISTENTIAL_DATA = assistential_data_load_csvs()
-INGRESOS_PLANTA_DATA = CSVS_ASSISTENTIAL_DATA[0]["data"]
-INGRESOS_UCI_DATA = CSVS_ASSISTENTIAL_DATA[1]["data"]
-
-print("Data available in variables: INGRESOS_PLANTA_DATA, INGRESOS_UCI_DATA")
+CSVS_ASSISTENTIAL_DATA = load_csvs()
+#print("Pandas dataframes available in CSVS_ASSISTENTIAL_DATA[]['data']")
 
