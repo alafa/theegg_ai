@@ -129,6 +129,11 @@ Un compilador es un software que genera, a partir de un código de alto nivel, u
 Dispositivo que convierte una señal electrica analógica en pulsos digitales.
 Es decir, cada vez que hay corriente se genera un 1 y un 0 cada vez que no.
 
+## CPU
+
+Centrar Processing Unit. Es el cerebro de un ordenador. Es donde se realizan todos los cálculos y se gestionan los
+recursos de un ordenador. Un ordenador puede tener más de una CPU.
+
 ## Crawling
 
 Da nombre a la práctica de navegar por la web de forma automatizada.
@@ -237,6 +242,11 @@ más legible y no se tengan que repetir lineas de código quedando así código 
 
 Es un repositorio de control de versiones muy conocido. Y que tiene un gato-pulpo como icono.
 
+## GPU
+
+Graphics Processing Unit. Es la parte de hardware de un ordenador que está dedicada al procesamiento de gráficos y a
+otras operaciones para aligerar la carga de trabajo de la CPU.
+
 ## Gráfico circular
 
 El gráfico circular, más conocido cómo gráfico de pastel, es una gráfica con forma de círculo donde se distribuye en secciones según la distribución de unos datos.
@@ -294,7 +304,7 @@ humando termine haciendo lo que queremos que haga sin que ni siquiera se dé cue
 ## Interfaz
 
 Se entiende por interfaz a cualquier pantalla que sirva para interactuar con el usuario final.
-Puede ser, por ejemplo, una interfaz web. Es decir, una página web.
+Puede ser, por ejemplo, una interfaz web. Es decir, una página web. O un escritorio o terminal de comandos en un sistema operativo.
 
 ## Internet
 
@@ -342,23 +352,33 @@ Son los lenguajes que son fácilmente interpretados por humanos.
 
 ## Lenguaje de máquina
 
-O de bajo nivel es aquel que un computador puede entender directamente. Este lenguaje actúa directamente sobre el hardware de la máquina.
+O de bajo nivel es aquel que un computador puede entender directamente. Este lenguaje actúa directamente sobre el hardware
+de la máquina.
 
 ## Lenguaje de programación
 
-Es un lenguaje que describe instrucciones o comandos que va a tener que ejecutar el ordenador. Un lenguaje puede ser de alto nivel o de bajo nivel.
+Es un lenguaje que describe instrucciones o comandos que va a tener que ejecutar el ordenador. Un lenguaje puede ser de 
+alto nivel o de bajo nivel.
 
 ## Lenguaje interpretado
 
-Lenguaje de programación que no necesita ser compilado para ejecutarse. Ya que un intérprete lo transforma a lenguaje máquina on the go. Por ejemplo Python.
+Lenguaje de programación que no necesita ser compilado para ejecutarse. Ya que un intérprete lo transforma a lenguaje 
+máquina on the go. Por ejemplo Python.
 
 ## Ley de Moore
 
 Ley que afirma que el número de transistores en los microprocesadores se duplica cada dos años.
 
+## Linux
+
+Linux es una serie de sistemas operativos de software libre basado en UNIX. Algunas de sus distribuciones más conocidas
+son Ubuntu y Debian.
+
 ## Lisp
 
-Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la inteligencia artificial.
+Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la
+ inteligencia artificial.
+
 
 ## Man in the middle
 
@@ -518,7 +538,14 @@ El sistema binario es una forma de contar en la que solo tenemos dos dígitos: 0
 
 ## Sistema Operativo
 
-Es el software principal de un ordenador que se encarga de gestionar el hardware y el resto de recursos.
+Es el software principal de un ordenador que se encarga de gestionar el hardware y el resto de recursos, como el sistema
+de ficheros y los drivers de los periféricos. También, provee al usuario de una interfaz gráfica para que la interacción
+ sea más amigable.
+ 
+Existen sistemas operativos para ordenadores tradicionales, tablets y móviles e incluso para otras tecnologías como
+coches, maquínaria industrial.. etc.
+
+Los sistemas operativos más conocidos para ordenador son Windows, Mac OS y Ubuntu. Y para móviles Android e iOS.
 
 ## Software
 
@@ -540,6 +567,10 @@ Un switch por si solo no tiene conictividad con el exterior, necesita de un rout
 ## TCP-IP
 
 Es el protocolo de comunicación que se utiliza en Internet.
+
+## Terminal
+
+Es un software que permite escribir operaciones para interactuar con el ordenador.
 
 ## Transistor
 
