@@ -1,5 +1,3 @@
-# ...EN DESARROLLO...
-
 # Estructura de datos
 
 El alumno debe decidir qué estructura de datos es la más conveniente para el desarrollo de los
@@ -27,13 +25,6 @@ secundario, finalizando al ingresar ?x?.
 - Informar los nombres de todos los alumnos de nivel primario y los de nivel secundario, sin repeticiones.
 - Informar qué nombres se repiten entre los alumnos de nivel primario y secundario.
 - Informar qué nombres de nivel primario no se repiten en los de nivel secundario.
-
-# Solución
-
-## Ejercicio 1
-
-## Ejercicio 2
-
 
 # Ejecución
 
