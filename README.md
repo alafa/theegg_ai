@@ -28,3 +28,5 @@ Escuela de Inteligencia Artificial
 ***Tarea 43:*** Aprendamos un poco de SQL
 
 ***Tarea 44:*** Análisis del rendimiento de las aplicaciones de IA
+
+***Tarea 52:*** Estructura de datos

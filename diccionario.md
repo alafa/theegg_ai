@@ -53,6 +53,12 @@ Se útilizan técnicas de la estadística descriptiva.
 
 Es una interfaz por la cual puedes recoger información útil a través de peticiones para complementar otras aplicaciones.
 
+## Árboles
+
+Es un tipo de estructura de datos que define una estructura jerárquica entre los distintos elementos que toman parte
+en los datos. Un árbol genialógico es una estructura de datos tipo árbol donde según dónde se proporciona información sobre
+los emparejamientos y descendencia de cada uno de los miembros solo por dónde está situado dentro del árbol.
+
 ## Arduino
 
 Unas placas de desarrollo de hardware y software libre.
@@ -67,6 +73,13 @@ Se asigna una memoria específica para los datos y para las instrucciones por lo
 ## Arquitectura Von Neumann
 
 No hay una memoria específica asignada para los datos o para las instrucciones. Al ser memoria compartida ofrece mayor flexibilidad ya que puede adaptarse a las necesidades de la tarea. Normalmente se utiliza en ordenadores de propósito general debido a que se le da mejor hacer cualquier tarea pero no puede dar tan buenos resultados como la arquitectura Harvard para una tarea específica.
+
+## Array
+
+Es una estructura de datos muy utilizada en la mayoría de los lenguajes de programación en la que tenemos una sucesión de
+varios elementos uno detrás de otro y a los que podemos acceder indicando la posición en la que se encuentran.
+
+Es posible tener una estructura de array como elemento de otra estructura de array. A lo que se le llamaría matriz.
 
 ## Asíncrono
 
@@ -118,6 +131,18 @@ Cisco es una empresa grande e internacional dedicada a las telecomunicaciones y 
 ## Código Fuente
 
 El código fuente es el código en texto que contiene las instrucciones que debe seguir la máquina.
+
+
+## Colas FIFO
+
+Es una lista de elementos en la que solo se puede acceder a un elemento a la vez. Este elemento siempre será el primero
+en haber entrado a la cola y dejará de ser parte de esta en cuanto se acceda a él, dando paso al siguiente en la cola.
+
+Es muy similar a una cola en un supermercado donde el cajero atiende al primero en la cola y los nuevos clientes se van
+colocando al final esperando su turno.
+
+En programación se utiliza mucho para encolar tareas a realizar porque normalmente el orden de ejecución de las tareas
+ debería seguir el orden de las peticiones.
 
 
 ## Compilador
@@ -203,6 +228,13 @@ La estadistica descriptiva es el conjunto de técnicas que extraen caracteristic
 Estás características son, entre otras: La media/promedio, la mediana y los cuartiles, la dispersión de los datos, 
 el rango intercuartílico, la correlación entre variables, la reducción de la dimensionalidad, la clusterización de los datos... etc
 
+## Estructura de datos
+
+Existen varias estructuras de datos que ayudan a explicar la naturaleza del dato y a colocar los datos de manera que
+se facilite la lectura y escritura según su proposito.
+
+Algunos ejemplos son: Array, listas, colas (FIFO), pilas (LIFO), diccionarios, árboles, grafos, tablas... etc.
+
 ## ETL
 
 Extract, Transform, Load
@@ -268,6 +300,10 @@ También, la caja tiene una línea cruzandola que sería el lugar de la mediana.
 También conocido como gráfico de correlación, es un gráfico que pone a comparar dos variables distintas; una en el eje X y la otra en el Y.
 Con el resultado podemos conocer cuánto de correlacionadas están estás dos variables y si su correlación es positiva o negativa.
 
+## Grafo
+
+Esta estructura de datos es bastante parecida a la de los árboles pero sin existir relaciones jerarquicas entre sí.
+Un ejemplo podría ser las conexiones de tren entre distintas ciudades o la red de contactos de una red social.
 
 ## Hacker
 
@@ -378,6 +414,17 @@ son Ubuntu y Debian.
 
 Lenguaje de programación que inicialmente fue creado para notación matemática pero que fue ganando peso en el campo de la
  inteligencia artificial.
+ 
+## Lista enlazada
+
+Las listas son muy parecidas a los arrays con la diferencia que en vez de almacenar en memoría cada elemento al lado del siguiente
+lo que se hace es almacenarlo de forma aleatoria en la memoria y que cada elemento apunte a la dirección de memoria del siguiente.
+
+La ventaja frente a los arrays es que no es necesario reservar tanta memoría como largo estimamos que vaya ser nuestro array
+y será mucho más fácil incrementar su tamaño. La descentaja es que para acceder a un elemento situado en una posición central
+hay que recorrer todo el array.
+
+Según el proposito será más conveniente utilizar arrays o listas.
 
 
 ## Man in the middle
@@ -446,6 +493,13 @@ Un lenguaje que aunque cada vez menos, ha sido durante mucho tiempo el más util
 
 El phising es una técnica que se usa en la informática para conseguir que el usuario haga click en donde nos interesa a base de engañarle
 con trucos de ingeniería psicológica.
+
+## Pilas (LIFO)
+
+Son listas de elementos en la que solo se puede sacar o almacenar elementos en la cima de la lista.
+Es decir, que el último elemento insertado será el primero en ser sacado.
+
+Un simil en la vida cotidiana sería las cajas alargadas para guardar pelotas de tenís donde la última insertada será la primera en salir.
 
 ## PostgreSQL
 
