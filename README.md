@@ -29,4 +29,8 @@ Escuela de Inteligencia Artificial
 
 ***Tarea 44:*** Análisis del rendimiento de las aplicaciones de IA
 
+***Tarea 50:*** Inteligencia artificial ética
+
 ***Tarea 52:*** Estructura de datos
+
+***Tarea 62:*** Convertir una computadora tonta en algo más inteligente: bash scripting

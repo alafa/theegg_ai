@@ -1,0 +1,3 @@
+# Convertir una computadora tonta en algo más inteligente: bash scripting
+
+EN DESARROLLO...
