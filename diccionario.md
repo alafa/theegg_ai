@@ -42,7 +42,7 @@ Todos ellos tienen una notación O de complejidad cuadrática (n^2).
 Hay otros algoritmos de ordenación que ofercen un mejor rendimiento pero que tienen más limitaciones, por ejemplo, que solo
 se puedan ordenar números enteros.
 
-## Análisis exploratorio
+## Análisis exploratorio o análisis descriptivo
 
 En análisis exploratorio es el analisis que se realiza a un conjunto de datos para estudiar y conocer las características
 del set de datos y para entender qué relación tienen las variables entre sí. 
@@ -222,6 +222,11 @@ Un diccionario que convierte direcciones web a direcciones IP.
 
 Una aplicación para el ordenador que permite escribir texto y da facilidades para escribir código.
 
+## Estadística
+
+La estadística es una rama de las matemáticas que estudia y saca conclusiones de la realidad basandose en datos.
+
+
 ## Estadística descriptiva
 
 La estadistica descriptiva es el conjunto de técnicas que extraen caracteristicas descriptivas de un conjunto de datos.
@@ -246,6 +251,11 @@ Se refiere al proceso de recoger datos, tratarlos y subirlos a una base de datos
 Las expresiones regulares, o también llamadas regex, son código que responden a una seríe de reglas para identificar
 patrones específicos dentro de un texto.
 
+## Feature engineering
+
+Se refiere al conjunto de técnicas para acondicionar y adapatar unos datos crudos para que puedan ser procesados por algoritmos de machine learning.
+
+
 ## Filosofía DRY
 
 Don’t Repeat Yourself
@@ -253,6 +263,7 @@ Don’t Repeat Yourself
 ## Filosofía KISS
 
 Keep It Simple, Stupid!
+
 ## Filosofía RAD
 
 Rapid Application Development
@@ -442,6 +453,14 @@ la parte de la IP que es variable.
 
 Por ejemplo la máscara de subred: 255.255.255.0 aplicada sobre la IP 192.168.30.10 establece que la IP 192.168.30.30 también
 pertenece a esa red mientras que la IP 192.168.40.10 no.
+
+## Matriz de correlación
+
+Es una tabla de valores que contiene información sobre la correlación de cada variable de una lista de variables
+con respecto al resto de variables de esa misma lista, incluyendose a sí misma.
+
+El valor de correlación va desde -1 a 1 siendo la diagonal principal siempre 1 ya que toda variable tiene una 
+correlación de 1 con respecto a si misma.
 
 ## MongoDB
 
