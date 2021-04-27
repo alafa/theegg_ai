@@ -124,6 +124,10 @@ Un Cartograma es un tipo de gráfica para visualizar datos geográficos. Es deci
 Pueden ser tanto coordenadas como ciudades, regiones o países.
 Normalmente se pinta las diferentes áreas de un color diferente según el dato correspondiente en ese lugar.
 
+## Ciberseguridad
+
+La ciberseguridad se refiere a la seguridad en entornos en linea. Se detectan las diferetes vulnerabilidades que puede tener un sistema y se trabaja para eliminarlas.
+
 ## Cisco
 
 Cisco es una empresa grande e internacional dedicada a las telecomunicaciones y redes informáticas con sede en Estados Unidos.
@@ -552,6 +556,11 @@ Lenguaje interpretado. Muy utilizado para procesamiento de datos e IA.
 
 Lenguaje de programación estadístico. Muy utilizado en ámbito de la IA para obtener resultados de análisis.
 
+## Ransomware
+
+Se le llama ransomware al virus informático que una vez en la máquina victima realiza encriptamientos o bloqueos de pantalla o ficheros y pidiendo
+un pago de dinero a cambio de volver a dejar accesible los documentos.
+
 ## Raspberry PI
 
 La placa base de un ordenador muy sencillo que se distribuye normalmente con objetivos educacionales. Viene con sistema operativo Linux.
@@ -605,6 +614,11 @@ obtenidas de llamadas anteriores.
 
 Por lo contrario, el método asincrono sí que aprovecha este tiempo muerto de espera.
 
+## Spyware
+
+Se trata de un virus informatico cuya misión es recopilar información de la máquina infectada para luego mandarla a terceros.
+Este malware se ejecuta de forma que pasa desapercibido por el usuario de la máquina infectada.
+
 ## Sistema binario
 
 El sistema binario es una forma de contar en la que solo tenemos dos dígitos: 0 y 1
@@ -651,7 +665,11 @@ Es un elemento electrónico que funciona como switch. Tiene dos estados: dejar p
 
 ## Transistores bipolares
 
-Los transistores bipolares son elementos electrónicos que dejan o no pasar la corriente según una tercera señal. 
+Los transistores bipolares son elementos electrónicos que dejan o no pasar la corriente según una tercera señal.
+
+## Troyano
+
+Se le llama virus informático troyano al malware que infecta una máquina haciendose pasar por un software legítimo.
 
 
 ## Turing
