@@ -103,6 +103,11 @@ Las bases de datos relacionales tienen como propiedad que sus datos están almac
 para poder relacionar tablas entre sí por una FOREIGN KEY.
 Una clara ventaja de este tipo de bases de datos es que dotan de robustez (con un buen diseño) a los datos almacenados.
 
+## Bash
+
+Es un lenguaje de ordenes y comandos escrito para el proyecto GNU.
+Todos los sistemas operativos basados en Unix entienden y de administran mediante este lenguaje.
+
 ## Bucles de programación
 
 Esctructuras de programación que permite iterar sobre un trozo de código.
@@ -151,7 +156,15 @@ En programación se utiliza mucho para encolar tareas a realizar porque normalme
 
 ## Compilador
 
-Un compilador es un software que genera, a partir de un código de alto nivel, unos ficheros binarios (lenguaje máquina) para que se puedan ejecutar directamente sin necesidad de intérprete.
+Un compilador es un software que genera, a partir de un código de alto nivel, unos ficheros binarios 
+(lenguaje máquina) para que se puedan ejecutar directamente sin necesidad de intérprete.
+
+Al contrario que un interprete, el compilador se ejecuta antes de ejecutar el programa original.
+El interprete genera un fichero ejecutable que contiene el programa original pero en un lenguaje de
+bajo nivel. Es este ejecutable lo que habría que ejecutar.
+
+En cada cambio en el código que se realice, antes de ejecutarlo en la máquina, hay que volver a compilar.
+
 
 ## Convertidor analógico digital
 
@@ -363,7 +376,11 @@ Se trata de la red WAN (Wide Area Network) más grande e importante que existe.
 
 ## Intérprete
 
-Es un software que al mismo tiempo que se ejecuta un código, lo traduce a lenguaje máquina para que el ordenador lo entienda. Los lenguajes interpretados no tienen necesidad de compilarse de antemano.
+Se refiere a un software informático que traduce un lenguage de programación de alto nivel a otro
+de más bajo nivel que sí sea comprendido por la máquina.
+
+Al contrario que el compilador, un interprete realiza la traducción al mismo tiempo que se ejecuta el
+programa original.
 
 ## Inyección SQL
 
@@ -596,9 +613,20 @@ van formando los nodos de la red.
 
 Es un conjunto de técnicas que permiten la extracción de datos en la web.
 
+## Script
+
+Un script en informática es un conjunto de comandos escritos es un fichero que se ejecutan en orden.
+Se podria decir que un script es un programa informático sencillo que consta de un solo fichero y que
+tiene una función muy concreta.
+
 ## Servidor web
 
 Un servidor web es un conjunto de software abierto por puertos a la web. Están compuestos por un frontend (lo que se ve en el navegador destino) y un backend (las tripas, acceso a datos, donde se ejecutan disitntos algoritmos, etc)
+
+## Shell
+
+Se refiere al interprete de comandos de los sistemas operativos basados en Unix (como Linux o Mac).
+También es la interfaz de comandos original de estos sistemas operativos.
 
 ## Simulador
 
@@ -614,10 +642,6 @@ obtenidas de llamadas anteriores.
 
 Por lo contrario, el método asincrono sí que aprovecha este tiempo muerto de espera.
 
-## Spyware
-
-Se trata de un virus informatico cuya misión es recopilar información de la máquina infectada para luego mandarla a terceros.
-Este malware se ejecuta de forma que pasa desapercibido por el usuario de la máquina infectada.
 
 ## Sistema binario
 
@@ -634,9 +658,15 @@ coches, maquínaria industrial.. etc.
 
 Los sistemas operativos más conocidos para ordenador son Windows, Mac OS y Ubuntu. Y para móviles Android e iOS.
 
+
 ## Software
 
 Instrucciones en forma de código ejecutadas en un computador.
+
+## Spyware
+
+Se trata de un virus informatico cuya misión es recopilar información de la máquina infectada para luego mandarla a terceros.
+Este malware se ejecuta de forma que pasa desapercibido por el usuario de la máquina infectada.
 
 ## SQL
 

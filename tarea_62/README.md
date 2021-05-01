@@ -40,12 +40,16 @@ Si al lanzar el script en la terminal de Linux da un error es posible que sea de
 Para solucionar esto simplemente ejecutar los siguientes comandos:
 
 `chmod +x script1.sh`
+
 `chmod +x script2.sh`
+
 `chmod +x script3.sh`
 
 Para ejecutar cada script simplemente lanzar en la línea de comandos de Linux:
 
 `./script1.sh`
+
 `./script2.sh`
+
 `./script3.sh`
 
