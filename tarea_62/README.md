@@ -18,3 +18,10 @@ Cuando termina con todas ellas vuelve al principio en un bucle infinito.
 Al ejecutar este script comienza un countdown y cuando llega a 0... ¿Apagamos máquina?
 
 
+
+## Ejecución
+
+Si al lanzar el script en la terminal de Linux da un error.
+Probar a cambiar los permisos de ejecución:
+
+'chmod +x script.sh'
