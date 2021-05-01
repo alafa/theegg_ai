@@ -19,9 +19,13 @@ Al ejecutar este script comienza un countdown y cuando llega a 0... ¿Apagamos m
 
 
 
-## Ejecución
+## Ejecuciones
+
+Se ha desarrollado en un sistema operativo Linux Ubuntu 20.04.2 LTS.
 
 Si al lanzar el script en la terminal de Linux da un error.
 Probar a cambiar los permisos de ejecución:
 
 'chmod +x script.sh'
+
+
