@@ -1,7 +1,16 @@
 #! /bin/bash
 
-dir="./wallpapers"
+dir="/usr/share/backgrounds"
 
-for f in "$dir"/*; do
-	gsettings set org.gnome.desktop.background picture-uri file:$f
-	sleep 2m
+while true
+	do
+	for f in "$dir"/*; do
+
+		if [[($f == *.jpg) || ($f == *.png )]]; then
+		
+			gsettings set org.gnome.desktop.background picture-uri "file://$f"
+			sleep 5
+		fi
+	done
+done
+

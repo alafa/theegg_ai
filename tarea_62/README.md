@@ -10,7 +10,7 @@ Para marcarlos, se añadirá al principio del nombre de cada fichero "OLD_".
 
 ## Script 2: Rotación automática de fondo de pantalla
 
-Cada cinco minutos cambia de fondo de pantalla utilizando las imágenes dentro de la carpeta de ./script2/wallpapers.
+Cada cinco minutos cambia de fondo de pantalla utilizando las imágenes de fondo de pantalla disponibles en '/usr/share/backgrounds/'.
 Cuando termina con todas ellas vuelve al principio en un bucle infinito.
 
 ## Script 3: Countdown
