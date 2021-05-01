@@ -8,8 +8,13 @@ Lo primero se le pide al usuario insertar por comando el número de minutos que 
 
 Para marcarlos, se añadirá al principio del nombre de cada fichero "OLD_".
 
-## Script 2:
+## Script 2: Rotación automática de fondo de pantalla
 
-## Script 3:
+Cada cinco minutos cambia de fondo de pantalla utilizando las imágenes dentro de la carpeta de ./script2/wallpapers.
+Cuando termina con todas ellas vuelve al principio en un bucle infinito.
+
+## Script 3: Countdown
+
+Al ejecutar este script comienza un countdown y cuando llega a 0... ¿Apagamos máquina?
 
 

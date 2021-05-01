@@ -8,4 +8,6 @@
 
 5. Apagar o encender la máquina automáticamente:
 
+6. Cambiar automáticamente la foto de fondo de pantalla cada x tiempo
 
+7. Countown
