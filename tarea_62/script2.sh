@@ -9,7 +9,7 @@ while true
 		if [[($f == *.jpg) || ($f == *.png )]]; then
 		
 			gsettings set org.gnome.desktop.background picture-uri "file://$f"
-			sleep 5
+			sleep 5m
 		fi
 	done
 done
