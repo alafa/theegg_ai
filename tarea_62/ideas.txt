@@ -4,3 +4,8 @@
 
 3. Programar una alarma
 
+4. Automatizar copias de seguridad
+
+5. Apagar o encender la máquina automáticamente:
+
+
