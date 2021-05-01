@@ -21,8 +21,9 @@ Un script pensado para que no te aburras del fondo de pantalla.
 Cada cinco minutos cambia de fondo de pantalla utilizando las imágenes de fondo de pantalla disponibles en '/usr/share/backgrounds/'.
 Cuando termina con todas ellas vuelve al principio en un bucle infinito.
 
-Nota: Para comprobar su funcionamiento quizá os interese modificar los 5 minutos por 5 segundos en el código.
-5m -> 5
+Nota: Para comprobar su funcionamiento quizá interese modificar los 5 minutos por 5 segundos en el código.
+
+Sería sustituir "sleep 5m" por "sleep 5" (sin la "m").
 
 ## Script 3: 5 minutos más y lo dejo
 
