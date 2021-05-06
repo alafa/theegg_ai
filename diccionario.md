@@ -165,6 +165,10 @@ bajo nivel. Es este ejecutable lo que habría que ejecutar.
 
 En cada cambio en el código que se realice, antes de ejecutarlo en la máquina, hay que volver a compilar.
 
+## Consola
+
+La consola o línea de comandos es una interfaz de un ordenador para que el usuario pueda ejeutar comandos en forma de texto. 
+
 
 ## Convertidor analógico digital
 
@@ -436,6 +440,10 @@ máquina on the go. Por ejemplo Python.
 ## Ley de Moore
 
 Ley que afirma que el número de transistores en los microprocesadores se duplica cada dos años.
+
+## Línea de comandos
+
+La línea de comandos o consola es una interfaz de un ordenador para que el usuario pueda ejeutar comandos en forma de texto. 
 
 ## Linux
 
