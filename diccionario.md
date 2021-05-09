@@ -175,6 +175,10 @@ La consola o línea de comandos es una interfaz de un ordenador para que el usua
 Dispositivo que convierte una señal electrica analógica en pulsos digitales.
 Es decir, cada vez que hay corriente se genera un 1 y un 0 cada vez que no.
 
+## Correlación
+
+Mide la similitud que tienen (ya sea directa o inversa) dos variables para conocer si son dependientes la una de la otra.
+
 ## CPU
 
 Centrar Processing Unit. Es el cerebro de un ordenador. Es donde se realizan todos los cálculos y se gestionan los
@@ -235,6 +239,11 @@ red al mundo externo. Esta IP externa tiene información sobre el territorio geo
 Es por esto último que si quieres acceder a contenido que no está disponible en tu país, deberás conectarte a través de
 un proxy.
 
+## Distribución normal
+
+También conocida como distribución de Gauss o distribución gaussiana, es la distribución de probabilidad que nos encontramos 
+de forma más habitual en estadística.
+
 # DNS
 
 Un diccionario que convierte direcciones web a direcciones IP.
@@ -253,6 +262,15 @@ La estadística es una rama de las matemáticas que estudia y saca conclusiones 
 La estadistica descriptiva es el conjunto de técnicas que extraen caracteristicas descriptivas de un conjunto de datos.
 Estás características son, entre otras: La media/promedio, la mediana y los cuartiles, la dispersión de los datos, 
 el rango intercuartílico, la correlación entre variables, la reducción de la dimensionalidad, la clusterización de los datos... etc
+
+## Estadística inferencial
+
+La estadística inferencial trata de estudiar las características de una población entera a partir de una submuestra de
+dicha población. La parte de seleccionar esta muestra (cómo y cuantos) también forma parte de la estadística inferencial.
+
+## Estimación
+
+Realizar una aproximación a la realidad.
 
 ## Estructura de datos
 
@@ -351,6 +369,9 @@ El business inteligence es la obtención de conocimiento a través de los datos 
 Las herramientas de Business Intelligence son herramientas que ayudan a limpiar, analizar y presentar datos en este contexto.
 Un ejemplo es Tableau, SAP BI, Microsoft Query BI u Oracle BI.
 
+## Hipótesis
+
+Una suposición de la que se parte antes de investigar a ver si es cierta o no.
 
 ## Histograma
 
@@ -498,6 +519,12 @@ Almacena los datos en formato coleccioens de documentos permitiendo una mayor fl
 
 Para las consultas utiliza lenguaje NoSQL.
 
+
+## Muestra
+
+Un suboconjunto de elementos de una población que se va a utilizar para estudiar la población entera.
+
+
 ## MySQL
 
 MySQL es probablemente el sistema de gestión de bases de datos relacionales de código abierto más conocido y utilizado.
@@ -519,6 +546,11 @@ Se tiene en cuenta la componente del algoritmo que más afecta al rendimiento y 
 ## NoSQL
 
 Es el lenguaje de consulta para las bases de datos no relacionales.
+
+## P Valor
+
+P-value en inglés es un indicador que indica si un resultado estadístco a partir de una muestra es significativo o si por lo contrario es probable
+que se deba al azar. Sirve para rechazar hipótesis nulas en una investigación.
 
 ## Packet-tracer
 
@@ -552,6 +584,10 @@ Un simil en la vida cotidiana sería las cajas alargadas para guardar pelotas de
 ## PostgreSQL
 
 Un sistema de gestión de bases de datos relacionales de código abierto muy conocido.
+
+## Predicción
+
+Estimar un valor antes de que sea conocido.
 
 ## Procesamiento del lenguaje natural
 
@@ -714,13 +750,21 @@ Se le llama virus informático troyano al malware que infecta una máquina hacie
 
 Durante la segunda guerra mundial construyó la máquina de Turing, que descifraría los mensajes de la Alemania nazi y salvaría muchísimas vidas. El “test de Turing”, aunque hoy en día el concepto ha quedado obsoleto, es una prueba que consiste en que un robot debe engañar a un humano haciéndole creer que está hablando/interactuando con otro humano.
 
+## Variable
+
+Una característica que tiene un valor.
+
+## Varianza
+
+Es una caraceteristica de un conjunto de datos que mide la dispersión de los mismos. Es decir, como de diferentes con entre sí.
 
 ## XML
 
 Extensible Markup Language.
 Recoge unas reglas para dar formato a un documento escrito en un inicio en texto plano.
 
-##XSS
+
+## XSS
 
 Ver entrada: "Cross-site scripting"
 
