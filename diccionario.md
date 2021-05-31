@@ -91,6 +91,12 @@ obtenidas de llamadas anteriores.
 
 Es un ataque informático que consiste en mandar peticiones a lo loco al servicio web con la intención de bloquearlo o tirarlo.
 
+## Atributo
+
+En programación orientada a objetos un atributo es una propiedad de una clase. Puede ser accesible por el usuario o por el contrario, solo
+accesible por el código dentro de la misma clase. Sirven para guardar características o estados de una instancia de la
+clase.
+
 ## Bases de datos
 
 Una base de datos es un conjunto de datos almacenados en el mismo lugar, con la misma tecnología y formato.
@@ -137,6 +143,10 @@ La ciberseguridad se refiere a la seguridad en entornos en linea. Se detectan la
 
 Cisco es una empresa grande e internacional dedicada a las telecomunicaciones y redes informáticas con sede en Estados Unidos.
 
+## Clase
+
+En programación orientada a objetos una clase es una estructura de datos y de funciones que definen un tipo de entidad.
+
 ## Código Fuente
 
 El código fuente es el código en texto que contiene las instrucciones que debe seguir la máquina.
@@ -168,6 +178,10 @@ En cada cambio en el código que se realice, antes de ejecutarlo en la máquina,
 ## Consola
 
 La consola o línea de comandos es una interfaz de un ordenador para que el usuario pueda ejeutar comandos en forma de texto. 
+
+## Constructor
+
+En programación orientada a objetos un constructor es el método que se llama al crear una instancia y que la inicializa.
 
 
 ## Convertidor analógico digital
@@ -251,6 +265,10 @@ Un diccionario que convierte direcciones web a direcciones IP.
 ## Editor de código
 
 Una aplicación para el ordenador que permite escribir texto y da facilidades para escribir código.
+
+## Encapsulamiento
+
+En prorgamación orientada a objetos se habla de encapsulamiento cuando se hacen privados los métodos o atributos de una clase.
 
 ## Estadística
 
@@ -362,6 +380,10 @@ Persona con altos conocimientos en informática y aptas aptitudes para encontrar
 ## Hardware
 Los elementos físicos de un computador.
 
+## Herencia
+
+En prorgamación orientada a objetos se habla de herencia cuando una clase hereda los métodos y atributos de otra clase.
+
 ## Herramientas de Business Intelligence
 
 El business inteligence es la obtención de conocimiento a través de los datos de una empresa para poder tomar decisiones favorables a un negocio.
@@ -389,6 +411,10 @@ El HTML es un lenguaje descriptivo que define la estructura y el contenido bási
 Se refiere a las técnicas usadas para manipular a los usuarios de dispositivos informaticos a que realicen ciertas acciones.
 Normalmente no es tanto la complejidad informática de las técnicas si no del arte sutil de persuasión que hace que el
 humando termine haciendo lo que queremos que haga sin que ni siquiera se dé cuenta.
+
+## Instancia
+
+En prorgamación orientada a objetos una instancia es una variable de tipo clase. Es sinónimo de objeto.
 
 ## Interfaz
 
@@ -512,6 +538,11 @@ con respecto al resto de variables de esa misma lista, incluyendose a sí misma.
 El valor de correlación va desde -1 a 1 siendo la diagonal principal siempre 1 ya que toda variable tiene una 
 correlación de 1 con respecto a si misma.
 
+## Método
+
+En programación orientada a objetos un método es una función dentro de la estructura de una clase. Puede ser accesible por el usuario o por el contrario, solo
+accesible por el código dentro de la misma clase.
+
 ## MongoDB
 
 Es una conocido gestor de base de datos de tipo no relacional de código abierto que se lanzó en 2007.
@@ -546,6 +577,10 @@ Se tiene en cuenta la componente del algoritmo que más afecta al rendimiento y 
 ## NoSQL
 
 Es el lenguaje de consulta para las bases de datos no relacionales.
+
+## Objeto
+
+En prorgamación orientada a objetos un objeto es una variable de tipo clase. Es sinónimo de instancia.
 
 ## P Valor
 
