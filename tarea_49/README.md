@@ -1,10 +1,7 @@
 # Aprender a pensar como un programador: Introducción a la POO
 
-________________________________
-**EN DESARROLLO!!**
-_______________________________
-
-## Ejercicio 1
+## Enunciados
+### Ejercicio 1: Persona
 
 Crear una clase llamada Persona. Sus atributos son: nombre, edad y DNI. Construye los siguientes
 métodos para la clase:
@@ -15,7 +12,7 @@ datos.
 . esMayorDeEdad(): devuelve un valor lógico indicando si es mayor de edad.
 
 
-## Ejercicio 2
+### Ejercicio 2: Cuenta
 Crea una clase llamada Cuenta que tendrá los siguientes atributos:
 . titular (que es una persona)
 . cantidad (puede tener decimales).
@@ -30,10 +27,31 @@ hará nada.
 
 # Solución
 
-Los ejercicios están desarrollado con Python 3.7.3
+`cuenta.py` y `persona.py` contienen las clases Cuenta y Persona respectivamente.
 
+Se han utilizado los decorators propios de python `@property` y `@property.setter` para implementar los getters y setters.
+Estos decorators permiten realizar validaciones y transformaciones antes de guardar o devolver los atributos a la vez que
+permiten acceder a las propiedades de una forma aparentemente directa (Ej: `una_persona.edad`).
+
+En [este video](https://www.youtube.com/watch?v=jCzT9XFZ5bw&ab_channel=CoreySchafer) lo explican muy bien.
 
 # Unit tests
 
+Se han implementado unit tests para comprobar el correcto funcionamiento de las clases Persona y Cuenta. Para lanzar estos
+tests hace falta ejecutar en la línea de comandos:
+
+```
+python test_cuenta.py -v
+```
+
+```
+python test_persona.py -v
+```
+
+El parámetro `-v` es opcional pero es recomendable para ver qué tests pasa y cuales no.
+
+# Version Python
+
+Los ejercicios están desarrollado con Python 3.7.3
 
 

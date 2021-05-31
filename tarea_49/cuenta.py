@@ -51,9 +51,9 @@ class Cuenta:
     def ingresar(self, cantidad):
 
         cantidad_validada = self._validate_cantidad(cantidad)
-        self._cantidad = self._cantidad + cantidad_validada
+        self._cantidad += cantidad_validada
 
     def retirar(self, cantidad):
 
         cantidad_validada = self._validate_cantidad(cantidad)
-        self._cantidad = self._cantidad - cantidad_validada
+        self._cantidad -= cantidad_validada
