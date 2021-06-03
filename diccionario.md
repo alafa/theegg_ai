@@ -237,6 +237,11 @@ ser tratados antes de poder ser analizados.
 Los datos semiestructurados no tienen una estructura totalmente definida pero sí se puede aplicar algún anañisis sobre ellos porque
 su formato lo permite. Normalmente hablamos de datos almacenados en formato JSON.
 
+## Datos
+
+Piezas de representación de la realidad mediante diferentes símbolos o lenguajes.
+
+
 ## Diagrama de flujo
 
 Un diagrama de flujo es un diagrama que recoge todos los pasos y posibles caminos que puede tomar un algoritmo o una función
@@ -296,6 +301,11 @@ Existen varias estructuras de datos que ayudan a explicar la naturaleza del dato
 se facilite la lectura y escritura según su proposito.
 
 Algunos ejemplos son: Array, listas, colas (FIFO), pilas (LIFO), diccionarios, árboles, grafos, tablas... etc.
+
+## Ética
+
+Se trata de una rama de la filosofía que estudia el bien y el mal.
+
 
 ## ETL
 
@@ -415,6 +425,13 @@ humando termine haciendo lo que queremos que haga sin que ni siquiera se dé cue
 ## Instancia
 
 En prorgamación orientada a objetos una instancia es una variable de tipo clase. Es sinónimo de objeto.
+
+
+## Inteligencia Artificial
+
+Software capaz de aprender por si sola encontrando patrones en los datos proporcionados.
+Normalmente se refiere al aprendizaje automático basado en redes neuronales, que pretenden imitar el cerebro humano.
+
 
 ## Interfaz
 
