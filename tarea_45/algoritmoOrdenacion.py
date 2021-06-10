@@ -15,7 +15,7 @@ def ordenar_lista(mylist):
         else:
             i += 1
 
-    print(mylist)
+    return mylist
 
 
 if __name__ == "__main__":
