@@ -31,6 +31,8 @@ Escuela de Inteligencia Artificial
 
 ***Tarea 45:*** Algoritmos de búsqueda
 
+***Tarea 48:*** Algoritmos de compresión-descompresión
+
 ***Tarea 49:*** Aprender a pensar como un programador: Introducción a la POO
 
 ***Tarea 50:*** Inteligencia artificial ética
