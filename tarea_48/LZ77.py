@@ -1,4 +1,4 @@
-class LZ77():
+class LZ77:
 
     def __init__(self, message):
 
@@ -33,9 +33,25 @@ class LZ77():
 
         print(f"Mensaje descomprimido: {' '.join(resulted_words)}")
 
+def pedir_mensaje():
+
+    return input("Inserte el mensaje a encriptar (max 30 carácteres) o presiona Enter para encriptar el mensaje ejemplo (\"sueño que tengo sueño\"):")
+
 
 if __name__ == "__main__":
 
-    #Todo: Input del usuario y max 30 caracteres
-    comprimidor = LZ77("sueño que tengo sueño")
-    comprimidor.descomprimir_mensaje()
+    default_msg = "sueño que tengo sueño"
+    msg = pedir_mensaje()
+
+    while len(msg) > 30:
+        print("Mensaje demasiado largo. No válido. Max 30 caracteres.\n")
+        msg = pedir_mensaje()
+
+    if not msg:
+        msg = default_msg
+
+    # Creamor nuestra instancia de compresor (algoritmo LZ77)
+    compresor = LZ77(msg)
+
+    # Hemos comprimidor el mensaje y ahora queremos descomprimirlo de nuevo
+    compresor.descomprimir_mensaje()

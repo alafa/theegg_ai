@@ -31,6 +31,15 @@ Es más segura pero más lenta de descifrar que el cifrado simétrico.
 En criptografía se habla de un algoritmo de cifrado simétrico cuando se tiene una clave secreta común para el emisor y receptor.
 Un ejemplo claro es el de la máquina enigma. Es menos segura pero rápida de descifrar.
 
+## Algoritmos de compresión
+
+Los algoritmos de compresión son aquellos que tienen como finalidad encriptar o tranformar de alguna manera un mensaje o archivo multimedia
+original de manera que el resultado ocupe menos que el original.
+
+Existen varios algoritmos y se clasifican en los que tienen perdida de información y los que no. Muchas veces interesa recuperar
+toda la información inicial pero muchas otras veces quizás compensa perder algo de información a cambio de lograr una mayor compresión.
+
+
 ## Algoritmos de ordenación
 
 Existen diferentes algoritmos diseñados para ordenar listas. Algunos de ellos son:
@@ -259,6 +268,10 @@ su formato lo permite. Normalmente hablamos de datos almacenados en formato JSON
 ## Datos
 
 Piezas de representación de la realidad mediante diferentes símbolos o lenguajes.
+
+## Descompresión
+
+La descompresión es el proceso que, a partir de un mensaje (o archivo) comprimido, se aplica sus pasos inversos para recuperar el mensaje original.
 
 
 ## Diagrama de flujo
@@ -693,6 +706,11 @@ Lenguaje de programación estadístico. Muy utilizado en ámbito de la IA para o
 Se le llama ransomware al virus informático que una vez en la máquina victima realiza encriptamientos o bloqueos de pantalla o ficheros y pidiendo
 un pago de dinero a cambio de volver a dejar accesible los documentos.
 
+## RAR
+
+Se trata de un formato privado de documentos informáticos que han pasado por un determinado algoritmo de compresión sin pérdida muy utilizado hoy en día.
+Otro ejemplo es ZIP.
+
 ## Raspberry PI
 
 La placa base de un ordenador muy sencillo que se distribuye normalmente con objetivos educacionales. Viene con sistema operativo Linux.
@@ -839,3 +857,7 @@ Recoge unas reglas para dar formato a un documento escrito en un inicio en texto
 
 Ver entrada: "Cross-site scripting"
 
+## ZIP
+
+Se trata de un formato privado de documentos informáticos que han pasado por un determinado algoritmo de compresión sin pérdida muy utilizado hoy en día.
+Otro ejemplo es RAR.
