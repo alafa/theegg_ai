@@ -1,5 +1,5 @@
 
-class LinearSearch():
+class LinearSearch:
 
     def __init__(self, num_list, itemToSeach):
 
@@ -13,9 +13,6 @@ class LinearSearch():
         # Después buscamos el elemento en la lista aplicando el algoritmo de búsqueda binaria
         self.search()
 
-        # Dar resultados
-        self.printResults()
-
     def search(self):
 
         for i, num in enumerate(self.my_List):
@@ -23,16 +20,3 @@ class LinearSearch():
             if self.itemToSeach == num:
                 self.found = True
                 break
-
-    def printResults(self):
-
-        if self.found:
-            print("Elemento encontrado!")
-        else:
-            print("Elemento NO encontrado")
-
-        print(f"Un total de {self.counter} pasos.")
-
-
-number_list = [50, 3, 56, 21, 33, 874, 123, 66, 1000, 23, 45, 65, 56, -2]
-LinearSearch = LinearSearch(number_list, 33)

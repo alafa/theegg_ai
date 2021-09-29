@@ -17,43 +17,26 @@ class BinarySearch(QuickSort):
         # Después buscamos el elemento en la lista aplicando el algoritmo de búsqueda binaria
         self.search()
 
-        # Dar resultados
-        self.printResults()
-
     def search(self):
 
-        i = int(len(self.sorted_list)) - 1
+        min_i = 0
+        max_i = len(self.sorted_list)
 
         while not self.found:
+
             self.counter += 1
-            if self.sorted_list[i] == self.itemToSeach:
-                print(f"Encontrado en la posición {i}")
+            mid_i = min_i + int((max_i - min_i) / 2)
+
+            if self.sorted_list[mid_i] == self.itemToSeach:
                 self.found = True
 
-            elif self.sorted_list[i] > self.itemToSeach:
-
-                new_i = int(i / 2)
+            elif self.sorted_list[mid_i] > self.itemToSeach:
+                # El nº a buscar es menor que el número en mid_i
+                max_i = mid_i
 
             else:
-                new_i = i + int(i / 2)
+                # El nº a buscar es mayor  que el número en mid_i
+                min_i = mid_i
 
-            if new_i == i:
+            if min_i == max_i:
                 break
-            else:
-                i = new_i
-
-    def printResults(self):
-
-        if self.found:
-            print("Elemento encontrado!")
-        else:
-            print("Elemento NO encontrado")
-
-        print("Se han necesitado:")
-        print(f"{self.moves_to_sort} pasos para odenar la lista")
-        print(f"{self.counter} pasos para buscar el elemento")
-        print(f"Un total de {self.moves_to_sort + self.counter} pasos.")
-
-
-number_list = [50, 3, 56, 21, 33, 874, 123, 66, 1000, 23, 45, 65, 56, -2]
-myBinarySearch = BinarySearch(number_list, 33)
