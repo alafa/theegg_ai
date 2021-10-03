@@ -1,10 +1,13 @@
 # Algoritmos de búsqueda
 
 Tenemos la siguiente lista de elementos: [3, 56, 21, 33, 874, 123, 66, 1000, 23, 45, 65, 56].
+
 1.- Construye tu propio algoritmo para ordenarlo de menor a mayor.
+
 2.-Busca el número 874 utilizando el algoritmo secuencial y el binario. En cada iteración se debe sumar +1
 de modo que al final del programa se debe indicar el número de iteraciones realizadas por cada
 algoritmo hasta encontrar el elemento.
+
 3.- Realiza el análisis en Notación Big O (visto en la tarea #44) y describe tu conclusiones en un
 documento de texto
 
