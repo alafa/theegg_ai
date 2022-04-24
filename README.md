@@ -40,3 +40,6 @@ Escuela de Inteligencia Artificial
 ***Tarea 52:*** Estructura de datos
 
 ***Tarea 62:*** Convertir una computadora tonta en algo más inteligente: bash scripting
+
+### Nueva plataforma 
+***Tarea 170:*** Librerías para estadística con datos
